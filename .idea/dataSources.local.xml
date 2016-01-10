@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="PostgreSQL - diplom@localhost" uuid="7713de5e-27aa-423a-a29f-44a04d186fa1">
+      <secret-storage>master_key</secret-storage>
+      <user-name>postgres</user-name>
+      <schema-pattern>diplom.pg_catalog diplom.public</schema-pattern>
+      <default-schemas>diplom.public</default-schemas>
+    </data-source>
+  </component>
+</project>
