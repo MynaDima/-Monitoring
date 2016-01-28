@@ -65,4 +65,13 @@ public class Auto {
         this.type = type;
     }
 
+    @Override
+    public String toString() {
+        return "Auto{" +
+                "id=" + id +
+                ", address='" + address + '\'' +
+                ", number='" + number + '\'' +
+                ", type='" + type + '\'' +
+                '}';
+    }
 }

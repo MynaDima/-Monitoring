@@ -21,4 +21,14 @@ public class AutoServiceImpl implements AutoService {
     public List<Auto> getAll() {
         return autoRepository.findAll();
     }
+
+    @Override
+    public List<Auto> getByType() {
+        return null;
+    }
+
+    @Override
+    public List<Auto> getByAddress() {
+        return null;
+    }
 }

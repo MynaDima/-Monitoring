@@ -1,0 +1,163 @@
+body{
+    margin: 0px;
+}
+
+.home-block{
+	height: 680px;
+	background: #fff;
+    color: #58585a;
+    height: 100%;
+    float: left;
+    left: 0;
+    position: absolute;
+    width: 40%;
+    z-index: 12;
+}
+
+.social-buttons a {
+    background-image: url("/image/icons-social_media.png");
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+    height: 24px;
+    margin: 0px 0px 0px 10px;
+    width: 25px;
+}
+.social-buttons .border {
+    border-right: 2px solid #C2C2C3;
+    display: block;
+    float: left;
+    height: 36px;
+    margin-top: -6px;
+}
+
+
+.social-buttons a.facebook {
+    background-position: left bottom;
+}
+
+.social-buttons a.facebook:hover{
+    background-position: left top;
+}
+
+.social-buttons a.linkedin {
+    background-position: center bottom;
+    margin-right: 10px;
+}
+.social-buttons a.linkedin:hover{
+    background-position: center top;
+    margin-right: 10px;
+}
+
+.social-buttons a.twitter {
+    background-position: right bottom;
+}
+
+.social-buttons a.twitter:hover{
+    background-position: right top;
+}
+
+
+.social-buttons{
+	display: inline-block;
+    margin: 20px;
+}
+
+.img-social{
+	width: 30px;
+    height: 31px;
+}
+
+.text-logo{
+	margin: 20px;
+    font-size: 85px;
+   	color: #58585a;
+}
+
+.home-content{
+	margin-left: 20px;
+}
+.circle{
+	float: left;
+    left: 40%;
+    position: absolute;
+    z-index: 3;
+}
+
+.colours {
+    float: left;
+    /* margin-left: 40%; */
+    margin-bottom: -1px;
+    min-height: 500px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    width: 60%;
+    z-index: 2;
+}
+
+.colour {
+    display: block;
+    height: 85px;
+    position: relative;
+    width: 100%;
+}
+.colour span {
+    color: #fff;
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 30px;
+    margin-top: -12px;
+    position: absolute;
+    right: 30px;
+    text-align: right;
+    text-transform: uppercase;
+    top: 50%;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.colour span:hover {
+	color: #fff;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 40px;
+    margin-top: -12px;
+    position: absolute;
+    right: 30px;
+    text-align: right;
+    text-transform: uppercase;
+    top: 50%;
+    vertical-align: middle;
+    width: 100%;
+} 
+
+.colour_link span:hover{
+	width: 800px;
+}
+
+
+
+.content-panel {
+    font-family: "adelle-sans", sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+.content-box{
+    width: 85%;
+    height: 100%;
+    margin-left: 15%;
+}
+/*.hov-myna:hover{
+	width:50px;
+	 vertical-align: bottom; 
+	 margin-left: 5px; 
+	 padding-top:100px;
+    background-image: url("univ1.jpg");
+}*/
+

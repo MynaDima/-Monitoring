@@ -21,6 +21,10 @@ public class WebAppConfig extends WebMvcConfigurerAdapter {
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         registry.addResourceHandler("/WEB-INF/pages/**").addResourceLocations("/pages/");
+        registry.addResourceHandler("/js/**").addResourceLocations("/js/");
+        registry.addResourceHandler("/css/**").addResourceLocations("/css/");
+        registry.addResourceHandler("/image/**").addResourceLocations("/image/");
+        registry.addResourceHandler("/view/**").addResourceLocations("/view/");
     }
 
     // а этот бин инициализирует View нашего проекта
@@ -28,7 +32,7 @@ public class WebAppConfig extends WebMvcConfigurerAdapter {
     @Bean
     public InternalResourceViewResolver setupViewResolver() {
         InternalResourceViewResolver resolver = new InternalResourceViewResolver();
-        resolver.setPrefix("/WEB-INF/pages/");
+        resolver.setPrefix("/view/");
         resolver.setSuffix(".jsp");
         resolver.setViewClass(JstlView.class);
 
