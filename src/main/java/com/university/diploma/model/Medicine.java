@@ -20,6 +20,10 @@ public class Medicine {
     private String number;
     @Column
     private String type;
+    @Column
+    private double lat;
+    @Column
+    private double lng;
 
     public Medicine() {
     }

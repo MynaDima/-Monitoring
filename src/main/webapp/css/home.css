@@ -70,7 +70,7 @@ body{
 
 .text-logo{
 	margin: 20px;
-    font-size: 85px;
+    font-size: 50px;
    	color: #58585a;
 }
 
@@ -98,7 +98,7 @@ body{
 
 .colour {
     display: block;
-    height: 85px;
+    height: 138px;
     position: relative;
     width: 100%;
 }

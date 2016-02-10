@@ -21,16 +21,22 @@ public class Auto {
     private String number;
     @Column
     private String type;
+    @Column
+    private String lat;
+    @Column
+    private String lng;
 
     public Auto() {
 
     }
 
-    public Auto(int id, String address, String number, String type) {
+    public Auto(int id, String address, String number, String type, String lat, String lng) {
         this.id = id;
         this.address = address;
         this.number = number;
         this.type = type;
+        this.lat = lat;
+        this.lng = lng;
     }
 
     public int getId() {
@@ -65,6 +71,22 @@ public class Auto {
         this.type = type;
     }
 
+    public String getLat() {
+        return lat;
+    }
+
+    public void setLat(String lat) {
+        this.lat = lat;
+    }
+
+    public String getLng() {
+        return lng;
+    }
+
+    public void setLng(String lng) {
+        this.lng = lng;
+    }
+
     @Override
     public String toString() {
         return "Auto{" +
@@ -72,6 +94,8 @@ public class Auto {
                 ", address='" + address + '\'' +
                 ", number='" + number + '\'' +
                 ", type='" + type + '\'' +
+                ", lat=" + lat +
+                ", lng=" + lng +
                 '}';
     }
 }

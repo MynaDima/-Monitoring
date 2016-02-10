@@ -5,6 +5,7 @@ import com.university.diploma.model.Auto;
 import com.university.diploma.repository.AutoRepository;
 import com.university.diploma.service.AutoService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -23,8 +24,8 @@ public class AutoServiceImpl implements AutoService {
     }
 
     @Override
-    public List<Auto> getByType() {
-        return null;
+    public List<Auto> getByType(String type) {
+        return autoRepository.getByType(type);
     }
 
     @Override

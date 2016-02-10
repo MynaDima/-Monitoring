@@ -16,6 +16,10 @@ public class Well {
     private int id;
     @Column
     private String address;
+    @Column
+    private double lat;
+    @Column
+    private double lng;
 
     public Well() {
     }

@@ -11,6 +11,6 @@ import java.util.List;
 
 public interface AutoService {
     List<Auto> getAll();
-    List<Auto> getByType();
+    List<Auto> getByType(String type);
     List<Auto> getByAddress();
 }
