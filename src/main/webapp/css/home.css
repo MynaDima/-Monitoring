@@ -153,6 +153,12 @@ body{
     height: 100%;
     margin-left: 15%;
 }
+
+.colours{
+    border-right: 1px solid;
+    border-color: #c0a16b;
+    position: fixed;
+}
 /*.hov-myna:hover{
 	width:50px;
 	 vertical-align: bottom; 

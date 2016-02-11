@@ -44,19 +44,19 @@
     </div>
 
     <div class="colours tk-museo-sans" style="height: 680px;">
-        <a href="#map" class="colour_link faq" data-current="false"><span data-colour="#f2b701" data-name="who_we_are" class="colour map" style=" padding-top: 0px; margin-top: 0px; margin-left: 0px; background-color:rgb(242, 183, 1);"><span>MAP</span></span>
+        <a href="#map" class="colour_link" data-current="false"><span data-colour="#f2b701" data-name="who_we_are" class="colour map" style=" padding-top: 0px; margin-top: 0px; margin-left: 0px; background-color:rgb(242, 183, 1);"><span>MAP</span></span>
         </a>
 
-        <a href="#" class="colour_link what_we_do" data-current="false"><span data-colour="#e57d04" data-name="what_we_do" class="colour" style=" background-color: rgb(229, 125, 4);"><span>USER SETTINGS</span></span>
+        <a href="#" class="colour_link" data-current="false"><span data-colour="#e57d04" data-name="what_we_do" class="colour" style=" background-color: rgb(229, 125, 4);"><span>USER SETTINGS</span></span>
         </a>
 
-        <a href="#" class="colour_link why_choose_us" data-current="false"><span data-colour="#dc0030" data-name="why_choose_us" class="colour" style=" padding-top: 0px; margin-top: 0px; margin-left: 0px; background-color:rgb(177, 0, 88);"><span>STATISTICS</span></span>
+        <a href="#" class="colour_link " data-current="false"><span data-colour="#dc0030" data-name="why_choose_us" class="colour" style=" padding-top: 0px; margin-top: 0px; margin-left: 0px; background-color:rgb(177, 0, 88);"><span>STATISTICS</span></span>
         </a>
 
-        <a href="#" class="colour_link products" data-current="false"><span data-colour="#b10058" data-name="products" class="colour" style=" padding-top: 0px; margin-top: 0px; margin-left: 0px; background-color: rgb(124, 55, 138);"><span>COMPARISON</span></span>
+        <a href="#" class="colour_link" data-current="false"><span data-colour="#b10058" data-name="products" class="colour" style=" padding-top: 0px; margin-top: 0px; margin-left: 0px; background-color: rgb(124, 55, 138);"><span>COMPARISON</span></span>
         </a>
 
-        <a href="#" class="colour_link guestbook" data-current="false"><span data-colour="#7c378a" data-name="guestbook" class="colour" style=" background-color:rgb(52, 101, 170);"><span>FAQs</span></span>
+        <a href="#faq" class="colour_link"  data-current="false"><span data-colour="#7c378a" data-name="guestbook"  class="colour faq" style=" background-color:rgb(52, 101, 170);"><span>FAQs</span></span>
         </a>
 
         <%--<a href="http://colouredlines.com.au/faqs/" class="colour_link faqs" data-current="false"><span data-colour="#68778a" data-name="faqs" class="colour" style="background-color:rgb(9, 162, 117);"><span></span></span>--%>

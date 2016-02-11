@@ -186,3 +186,11 @@ label {
     padding-top: 9px;
     padding-bottom: 9px;
 }
+
+.home-n{
+    position: fixed;
+    top: 75px;
+    right: 20px;
+    z-index: 11;
+
+}

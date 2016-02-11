@@ -4,74 +4,6 @@
 
 $( document ).ready(function() {
 
-    function initMap() {
-        var map = new google.maps.Map(document.getElementById('map'), {
-            zoom: 12,
-            center: {lat: 50.4501, lng: 30.5234}
-        });
-        var geocoder = new google.maps.Geocoder();
-
-        document.getElementById('submit').addEventListener('click', function() {
-            geocodeAddressSearch(geocoder, map);
-        });
-
-        if(document.getElementById("autoStationCheckBox").checked = true){
-            geocodeAddressCheckBox(geocoder,map);
-        }else{
-            console.log("else");
-        }
-    }
-
-    function geocodeAddressSearch(geocoder, resultsMap) {
-        var address = document.getElementById('address').value;
-        geocoder.geocode({'address': address}, function(results, status) {
-            if (status === google.maps.GeocoderStatus.OK) {
-                resultsMap.setCenter(results[0].geometry.location);
-                var marker = new google.maps.Marker({
-                    map: resultsMap,
-                    position: results[0].geometry.location,
-                    animation: google.maps.Animation.DROP
-                });
-            } else {
-                alert('Geocode was not successful for the following reason: ' + status);
-            }
-        });
-    }
-
-    function geocodeAddressCheckBox(geocoder, resultsMap) {
-        geocoder.geocode({'address': addressT}, function(results, status) {
-            if (status === google.maps.GeocoderStatus.OK) {
-                resultsMap.setCenter(results[0].geometry.location);
-                var marker = new google.maps.Marker({
-                    map: resultsMap,
-                    position: results[0].geometry.location,
-                    animation: google.maps.Animation.DROP
-                });
-            } else {
-                alert('Geocode was not successful for the following reason: ' + status);
-            }
-        });
-    }
-
-
-    
-    var addressT;
-    var number;
-
-    $.ajax({
-        url: '/auto',
-        dataType : "json",
-        success: function (data, textStatus) {
-            var obj = data;
-            $.each(obj, function (key, value) {
-                addressT = value.address;
-                number = value.number;
-                console.log(addressT);
-                console.log(number);
-            });
-        }
-    });
-
     var wrapper    = $("#site-wrapper"),
         menu       = $(".menu"),
         menuLinks  = $(".menu ul li a"),
@@ -139,5 +71,115 @@ $( document ).ready(function() {
             }
         });
     });
+
+
+    var addressLat = [];
+
+    var addressLng = [];
+
+    var addressName = [];
+
+    var number = [];
+
+    var removeMarkers = [];
+
+    $.ajax({
+        url: '/autoParking',
+        dataType : "json",
+        success: function (data) {
+            $.each( data, function( key, val ) {
+                addressLat.push(val.lat);
+                addressLng.push(val.lng);
+                addressName.push(val.address);
+                number.push(val.number);
+            });
+        }
+    });
+    
+
+   window.initMap = function(){
+
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 12,
+            center: {lat: 50.4501, lng: 30.5234}
+        });
+        var geocoder = new google.maps.Geocoder();
+
+        document.getElementById('submit').addEventListener('click', function() {
+            addressSearch(geocoder,map);
+        });
+
+        var c = document.querySelector('#autoStationCheckBox');
+        c.onclick = function() {
+            if (c.checked) {
+                autoCheckBox(map);
+            } else {
+                remove();
+            }
+        }
+    }
+
+
+    function addressSearch(geocoder, resultsMap) {
+        var address = document.getElementById('address').value;
+        geocoder.geocode({'address': address}, function(results, status) {
+            if (status === google.maps.GeocoderStatus.OK) {
+                resultsMap.setCenter(results[0].geometry.location);
+                var marker = new google.maps.Marker({
+                    map: resultsMap,
+                    position: results[0].geometry.location,
+                    animation: google.maps.Animation.DROP
+                });
+            } else {
+                alert('Geocode was not successful for the following reason: ' + status);
+            }
+        });
+    }
+
+
+
+    function autoCheckBox(resultsMap) {
+        for(var i=0; i<addressName.length; i++){
+
+            var image = {
+                url: '/image/autoParking.png',
+            };
+
+            var contentString = '<div id="content">'+
+                '<div id="siteNotice">'+
+                '</div>'+addressName[i].toString()+
+                number[i].toString()+
+                '</div>'+
+                '</div>';
+            var infoWindow = new google.maps.InfoWindow({ content: contentString });
+            console.log(addressLat[i], addressLng[i]);
+            var marker = new google.maps.Marker({
+                map: resultsMap,
+                position: {lat:parseFloat(addressLat[i]), lng:parseFloat(addressLng[i])},
+                animation: google.maps.Animation.DROP,
+                title: "Information about place",
+                info:  contentString,
+                icon: image
+            });
+
+            google.maps.event.addListener( marker, 'click', function() {
+
+                infoWindow.setContent( this.info );
+                infoWindow.open( resultsMap, this );
+
+            });
+            removeMarkers.push(marker);
+        }
+
+    }
+
+    function remove(){
+        for(i=0; i<removeMarkers.length; i++){
+            removeMarkers[i].setMap(null);
+        }
+        removeMarkers = [];
+    }
+
+
 
 });
