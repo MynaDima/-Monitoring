@@ -182,4 +182,15 @@ $( document ).ready(function() {
 
 
 
+    //load content in menu-nav
+
+    function loadContent(urlToLoad, container) {
+        $.ajax({
+            url: urlToLoad,
+            cache: false,
+            beforeSend: function() { $(container).html('Loading content, please wait...'); },
+            success: function(html) { $(container).hide(); $(container).html(html); $(container).show('slow'); }
+        });
+    }
+
 });

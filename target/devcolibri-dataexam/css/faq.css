@@ -70,3 +70,7 @@ div {
     width: 285px;
     text-align: left !important;
 }
+
+.content-panel a {
+    color: #3465aa;
+}

@@ -23,7 +23,6 @@
             </a>
             <a class="linkedin" href="https://www.linkedin.com/nhome/" target="_blank">
             </a>
-
             <span class="border"></span>
             <a class="twitter" href="http://twitter.com/coloured_lines" target="_blank">
             </a>

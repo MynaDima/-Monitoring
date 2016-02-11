@@ -37,7 +37,7 @@
         <p>&nbsp;</p>
     </div>
     <div class="paragraphs second-block tk-source-sans-pro"></div>
-    <div class="quick-links tk-source-sans-pro"><a href="#" data-url="products">Products</a></div>
+    <div class="quick-links tk-source-sans-pro"><a href="#map" data-url="products">Map</a></div>
     <br><br><br>
 </div>
 </body>

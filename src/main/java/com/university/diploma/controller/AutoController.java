@@ -27,5 +27,19 @@ public class AutoController {
         return autoList;
     }
 
+    @RequestMapping(value="/fuelStation", method = RequestMethod.GET)
+    public @ResponseBody
+    List<Auto> fuelStation() {
+        List<Auto> autoList = autoService.getByType("АЗС");
+        return autoList;
+    }
+
+    @RequestMapping(value="/serviceStation", method = RequestMethod.GET)
+    public @ResponseBody
+    List<Auto> serviceStation() {
+        List<Auto> autoList = autoService.getByType("СТО и мойки");
+        return autoList;
+    }
+
 }
 

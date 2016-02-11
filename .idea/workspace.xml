@@ -2,29 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0327366b-7a73-4226-bdeb-546f2106a17c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/university/diploma/controller/AutoController.class" afterPath="$PROJECT_DIR$/target/classes/com/university/diploma/controller/AutoController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/university/diploma/controller/MapController.class" afterPath="$PROJECT_DIR$/target/classes/com/university/diploma/controller/MapController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam.war" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam.war" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university.war" afterPath="$PROJECT_DIR$/target/university.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/controller/AutoController.class" afterPath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/controller/AutoController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/controller/MapController.class" afterPath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/controller/MapController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/university/diploma/controller/AutoController.java" afterPath="$PROJECT_DIR$/src/main/java/com/university/diploma/controller/AutoController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/university/diploma/controller/MapController.java" afterPath="$PROJECT_DIR$/src/main/java/com/university/diploma/controller/MapController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/css/home.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/home.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/css/map.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/map.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/home.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/home.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/css/faq.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/faq.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/map.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/map.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/view/faq.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/view/faq.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/view/home.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/view/home.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/view/map.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/view/map.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/js/home.js" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/js/home.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/js/map.js" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/js/map.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/view/home.jsp" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/view/home.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/view/map.jsp" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/view/map.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/js/home.js" afterPath="$PROJECT_DIR$/target/university/js/home.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/js/map.js" afterPath="$PROJECT_DIR$/target/university/js/map.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/css/faq.css" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/css/faq.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/view/faq.jsp" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/view/faq.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/css/faq.css" afterPath="$PROJECT_DIR$/target/university/css/faq.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/view/faq.jsp" afterPath="$PROJECT_DIR$/target/university/view/faq.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/view/home.jsp" afterPath="$PROJECT_DIR$/target/university/view/home.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/view/map.jsp" afterPath="$PROJECT_DIR$/target/university/view/map.jsp" />
     </list>
     <ignored path="com.devcolibri.dataexam.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -99,38 +94,28 @@
       <file leaf-file-name="map.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/view/map.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.0">
-              <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="80" />
+            <state vertical-scroll-proportion="-16.791666">
+              <caret line="62" column="14" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="faq.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/view/faq.jsp">
+      <file leaf-file-name="map.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/js/map.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.875">
-              <caret line="17" column="76" selection-start-line="17" selection-start-column="76" selection-end-line="17" selection-end-column="76" />
+            <state vertical-scroll-proportion="0.71403813">
+              <caret line="190" column="93" selection-start-line="190" selection-start-column="93" selection-end-line="190" selection-end-column="93" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="faq.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/css/faq.css">
+      <file leaf-file-name="AutoController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/controller/AutoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.5">
-              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/css/home.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9044586">
-              <caret line="159" column="20" selection-start-line="159" selection-start-column="20" selection-end-line="159" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -142,9 +127,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="Jsp File" />
         <option value="Class" />
         <option value="CSS File" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -159,7 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/devcolibri/dataexam/service/impl/AutoServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/devcolibri/dataexam/config/AppInitializer.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/web.xml" />
@@ -198,18 +182,19 @@
         <option value="$PROJECT_DIR$/src/main/webapp/view/user.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/view/statistic.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/view/comparison.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/js/map.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/university/diploma/controller/FAQController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/home.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/view/home.jsp" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/7713de5e-27aa-423a-a29f-44a04d186fa1/console.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/com/university/diploma/controller/MapController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/university/diploma/controller/AutoController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/view/map.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/map.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/view/faq.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/css/faq.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/home.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/faq.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/view/faq.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/university/diploma/controller/AutoController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/view/home.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/view/auto.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/view/map.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/university/diploma/controller/MapController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/map.js" />
       </list>
     </option>
   </component>
@@ -389,7 +374,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1315,7 +1300,7 @@
       <workItem from="1455091117813" duration="4736000" />
       <workItem from="1455099258353" duration="17994000" />
       <workItem from="1455129580057" duration="6172000" />
-      <workItem from="1455144551709" duration="4098000" />
+      <workItem from="1455144551709" duration="8975000" />
     </task>
     <servers />
   </component>
@@ -1340,7 +1325,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="194489000" />
+    <option name="totallyTimeSpent" value="199366000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1367,7 +1352,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4318555" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25493172" sideWeight="0.8029557" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25493172" sideWeight="0.8095238" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25493172" sideWeight="0.1904762" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26403642" sideWeight="0.5264368" order="3" side_tool="true" content_ui="tabs" />
@@ -1376,7 +1361,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962063" sideWeight="0.50574714" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39244664" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39244664" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1408,13 +1393,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/1.3.4.RELEASE/spring-data-jpa-1.3.4.RELEASE.jar!/org/springframework/data/jpa/repository/JpaRepository.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37174723">
-          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/app.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.12998267">
@@ -1711,13 +1689,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/map.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.875">
-          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/controller/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.23684211">
@@ -1743,14 +1714,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/controller/MapController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/aa3b5477/7713de5e-27aa-423a-a29f-44a04d186fa1/diplom.public.auto">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -1770,28 +1733,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/controller/AutoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/js/home.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.49393415">
           <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/home.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.9166665">
-          <caret line="42" column="82" selection-start-line="42" selection-start-column="82" selection-end-line="42" selection-end-column="82" />
           <folding />
         </state>
       </provider>
@@ -1804,34 +1749,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/map.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.0">
-          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/faq.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.875">
-          <caret line="17" column="76" selection-start-line="17" selection-start-column="76" selection-end-line="17" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/css/faq.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.8915009">
+          <caret line="73" column="14" selection-start-line="73" selection-start-column="14" selection-end-line="73" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/css/home.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9044586">
+        <state vertical-scroll-proportion="4.312839">
           <caret line="159" column="20" selection-start-line="159" selection-start-column="20" selection-end-line="159" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/faq.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0578662">
+          <caret line="39" column="61" selection-start-line="39" selection-start-column="61" selection-end-line="39" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/auto.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6210191">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/controller/AutoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/controller/MapController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6178344">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.5732369">
+          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/map.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.791666">
+          <caret line="62" column="14" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.71403813">
+          <caret line="190" column="93" selection-start-line="190" selection-start-column="93" selection-end-line="190" selection-end-column="93" />
           <folding />
         </state>
       </provider>
