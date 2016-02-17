@@ -73,33 +73,18 @@ $( document ).ready(function() {
     });
 
 
-    var addressLat = [];
-
-    var addressLng = [];
-
-    var addressName = [];
-
-    var number = [];
-
     var removeMarkers = [];
 
-    var type;
-
-    var DATA = [];
+    var dataValues = [];
 
 
-    function ajax(url,addressLat,addressLng,addressName,number,type,image,map,index){
+    function ajax(url,DATA,image,map,index){
         $.ajax({
             url: url,
             dataType : "json",
             success: function (data) {
                 $.each( data, function( key, val ) {
-                    DATA.push(val.lat, val.lng, val.address,val.number, val.type);
-                    addressLat.push(val.lat);
-                    addressLng.push(val.lng);
-                    addressName.push(val.address);
-                    number.push(val.number);
-                    type = val.type;
+                    DATA.push({"lat": val.lat, "lng": val.lng, "address": val.address, "number": val.number,"type": val.type});
                     console.log("success");
 
                 });
@@ -120,8 +105,6 @@ $( document ).ready(function() {
             addressSearch(geocoder,map);
         });
 
-
-
         var c = document.querySelector('#autoStationCheckBox');
         c.onclick = function() {
             var image = {
@@ -130,16 +113,12 @@ $( document ).ready(function() {
 
             if (c.checked) {
                 var index = 1;
-                ajax('/autoParking',addressLat,addressLng,addressName,number,type,image,map,index);
-                addressLat.length = 0;
-                addressLng.length = 0;
-                addressName.length = 0;
-                number.length = 0;
+                ajax('/autoParking',dataValues,image,map,index);
+                dataValues.length = 0;
             } else {
                 remove(1);
             }
         }
-
 
        var d = document.querySelector('#fuelStationCheckBox');
        d.onclick = function() {
@@ -148,11 +127,8 @@ $( document ).ready(function() {
            };
            if (d.checked) {
                var index = 2;
-               ajax('/fuelStation',addressLat,addressLng,addressName,number,type,image,map,index);
-               addressLat.length = 0;
-               addressLng.length = 0;
-               addressName.length = 0;
-               number.length = 0;
+               ajax('/fuelStation',dataValues,image,map,index);
+               dataValues.length = 0;
            } else {
                remove(2);
            }
@@ -177,20 +153,21 @@ $( document ).ready(function() {
     }
 
 
+
     function checkBoxes(resultsMap, image, statusId) {
         console.log("checked");
-        for(var i=0; i<addressName.length; i++){
+        $.each( dataValues, function( key, val ) {
             var contentString = '<div id="content">'+
                 '<div id="siteNotice">'+
-                '</div>'+addressName[i].toString()+
-                number[i].toString()+
+                '</div>'+val.address+
+                val.number+
                 '</div>'+
                 '</div>';
             var infoWindow = new google.maps.InfoWindow({ content: contentString });
-            console.log(addressLat[i], addressLng[i]);
+            console.log(val.lat, val.lng);
             var marker = new google.maps.Marker({
                 map: resultsMap,
-                position: {lat:parseFloat(addressLat[i]), lng:parseFloat(addressLng[i])},
+                position: {lat:parseFloat(val.lat), lng:parseFloat(val.lng)},
                 animation: google.maps.Animation.DROP,
                 title: "Information about place",
                 info:  contentString,
@@ -202,7 +179,7 @@ $( document ).ready(function() {
                 infoWindow.open( resultsMap, this );
             });
             removeMarkers.push( {"markerName" : marker, "statusId" : statusId });
-        }
+        })
     }
 
 
@@ -215,7 +192,6 @@ $( document ).ready(function() {
     }
 
     //load content in menu-nav
-
     function loadContent(urlToLoad, container) {
         $.ajax({
             url: urlToLoad,

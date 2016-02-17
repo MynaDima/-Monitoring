@@ -2,55 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0327366b-7a73-4226-bdeb-546f2106a17c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/university/diploma/controller/HomeController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/university/diploma/controller/MapController.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/university/diploma/config/AppInitializer.class" afterPath="$PROJECT_DIR$/target/classes/com/university/diploma/config/AppInitializer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/university/diploma/config/WebAppConfig.class" afterPath="$PROJECT_DIR$/target/classes/com/university/diploma/config/WebAppConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/university/diploma/controller/HomeController.class" afterPath="$PROJECT_DIR$/target/classes/com/university/diploma/controller/HomeController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/university/diploma/controller/MapController.class" afterPath="$PROJECT_DIR$/target/classes/com/university/diploma/controller/MapController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam.war" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university.war" afterPath="$PROJECT_DIR$/target/university.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/config/AppInitializer.class" afterPath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/config/AppInitializer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/config/WebAppConfig.class" afterPath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/config/WebAppConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/controller/HomeController.class" afterPath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/controller/HomeController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/controller/MapController.class" afterPath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/controller/MapController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/University_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/University_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/University.iml" afterPath="$PROJECT_DIR$/University.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/university/diploma/config/AppInitializer.java" afterPath="$PROJECT_DIR$/src/main/java/com/university/diploma/config/AppInitializer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/university/diploma/config/WebAppConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/university/diploma/config/WebAppConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/app.properties" afterPath="$PROJECT_DIR$/src/main/resources/app.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/css/faq.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/faq.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/css/map.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/map.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/home.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/home.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/map.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/map.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/view/auto.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/view/auto.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/view/faq.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/view/faq.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/view/home.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/view/home.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/view/map.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/view/map.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/app.properties" afterPath="$PROJECT_DIR$/target/classes/app.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/classes/app.properties" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/classes/app.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/css/faq.css" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/css/faq.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/css/map.css" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/css/map.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/js/home.js" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/js/home.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/js/map.js" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/js/map.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/view/faq.jsp" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/view/faq.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/view/home.jsp" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/view/home.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/view/map.jsp" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/view/map.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/target/university/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/WEB-INF/classes/app.properties" afterPath="$PROJECT_DIR$/target/university/WEB-INF/classes/app.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/css/faq.css" afterPath="$PROJECT_DIR$/target/university/css/faq.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/css/map.css" afterPath="$PROJECT_DIR$/target/university/css/map.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/js/home.js" afterPath="$PROJECT_DIR$/target/university/js/home.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/js/map.js" afterPath="$PROJECT_DIR$/target/university/js/map.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/view/auto.jsp" afterPath="$PROJECT_DIR$/target/university/view/auto.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/view/faq.jsp" afterPath="$PROJECT_DIR$/target/university/view/faq.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/view/home.jsp" afterPath="$PROJECT_DIR$/target/university/view/home.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/view/map.jsp" afterPath="$PROJECT_DIR$/target/university/view/map.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/web.xml" afterPath="$PROJECT_DIR$/target/university/web.xml" />
     </list>
     <ignored path="com.devcolibri.dataexam.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -125,8 +78,8 @@
       <file leaf-file-name="map.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/js/map.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.87868285">
-              <caret line="170" column="96" selection-start-line="170" selection-start-column="96" selection-end-line="170" selection-end-column="96" />
+            <state vertical-scroll-proportion="1.2426343">
+              <caret line="112" column="0" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -1414,7 +1367,7 @@
       <workItem from="1455474360660" duration="5827000" />
       <workItem from="1455487652884" duration="18966000" />
       <workItem from="1455620452961" duration="1108000" />
-      <workItem from="1455648068731" duration="5485000" />
+      <workItem from="1455648068731" duration="9926000" />
     </task>
     <servers />
   </component>
@@ -1439,7 +1392,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="277050000" />
+    <option name="totallyTimeSpent" value="281491000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1465,7 +1418,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42528737" sideWeight="0.4969651" order="14" side_tool="false" content_ui="tabs" x="24" y="258" width="1318" height="245" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.4969651" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32676518" sideWeight="0.4969651" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25493172" sideWeight="0.8095238" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24279211" sideWeight="0.26108375" order="0" side_tool="false" content_ui="combo" />
@@ -1894,8 +1847,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/js/map.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.87868285">
-          <caret line="170" column="96" selection-start-line="170" selection-start-column="96" selection-end-line="170" selection-end-column="96" />
+        <state vertical-scroll-proportion="1.2426343">
+          <caret line="112" column="0" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
           <folding />
         </state>
       </provider>
