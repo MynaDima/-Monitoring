@@ -88,24 +88,6 @@ $( document ).ready(function() {
     var DATA = [];
 
 
-    //$(document).live(function(){
-    //    $.ajax({
-    //    url: '/autoParking',
-    //    dataType : "json",
-    //        async: false,
-    //    success: function (data) {
-    //        $.each( data, function( key, val ) {
-    //            DATA.push(val.lat, val.lng, val.address,val.number, val.type);
-    //            addressLat.push(val.lat);
-    //            addressLng.push(val.lng);
-    //            addressName.push(val.address);
-    //            number.push(val.number);
-    //            type = val.type;
-    //        });
-    //    }
-    //});
-    //});
-
     function ajax(url,addressLat,addressLng,addressName,number,type,image,map,index){
         $.ajax({
             url: url,
