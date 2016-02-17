@@ -17,7 +17,7 @@ $('.circle').animate({
  });
 
 
-$( ".map").on( "click", function( event ) {
+$(".map").on( "click", function( event ) {
   $(".content-box").load("/view/map.jsp");
     load = true;
 
@@ -34,8 +34,29 @@ $( ".map").on( "click", function( event ) {
         $("body").css("background-color", col);
     });
 
+    $( ".login").on( "click", function( event ) {
+        $(".content-box").load("/view/login.jsp");
+        load = true;
 
+        col = $('.login').css('background-color');
+        $("body").css("background-color", col);
+    });
 
+    $( ".statistic").on( "click", function( event ) {
+        $(".content-box").load("/view/statistic.jsp");
+        load = true;
+
+        col = $('.statistic').css('background-color');
+        $("body").css("background-color", col);
+    });
+
+    $( ".comparison").on( "click", function( event ) {
+        $(".content-box").load("/view/statistic.jsp");
+        load = true;
+
+        col = $('.comparison').css('background-color');
+        $("body").css("background-color", col);
+    });
 
 
     //if(load=true){

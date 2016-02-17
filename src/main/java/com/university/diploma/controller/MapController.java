@@ -12,12 +12,12 @@ import org.springframework.web.servlet.ModelAndView;
 @RequestMapping("/")
 public class MapController {
 
-//    @RequestMapping(value = "/#map", method = RequestMethod.GET)
-//    public ModelAndView homeMap() {
-//
-//        ModelAndView modelAndView = new ModelAndView("map");
-//
-//        return modelAndView;
-//    }
+    @RequestMapping(value = "/auto", method = RequestMethod.GET)
+    public ModelAndView autoDiv() {
+
+        ModelAndView modelAndView = new ModelAndView("auto");
+
+        return modelAndView;
+    }
 
 }

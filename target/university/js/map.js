@@ -83,19 +83,48 @@ $( document ).ready(function() {
 
     var removeMarkers = [];
 
-    $.ajax({
-        url: '/autoParking',
-        dataType : "json",
-        success: function (data) {
-            $.each( data, function( key, val ) {
-                addressLat.push(val.lat);
-                addressLng.push(val.lng);
-                addressName.push(val.address);
-                number.push(val.number);
-            });
-        }
-    });
+    var type;
 
+    var DATA = [];
+
+
+    //$(document).live(function(){
+    //    $.ajax({
+    //    url: '/autoParking',
+    //    dataType : "json",
+    //        async: false,
+    //    success: function (data) {
+    //        $.each( data, function( key, val ) {
+    //            DATA.push(val.lat, val.lng, val.address,val.number, val.type);
+    //            addressLat.push(val.lat);
+    //            addressLng.push(val.lng);
+    //            addressName.push(val.address);
+    //            number.push(val.number);
+    //            type = val.type;
+    //        });
+    //    }
+    //});
+    //});
+
+    function ajax(url,addressLat,addressLng,addressName,number,type,image,map,index){
+        $.ajax({
+            url: url,
+            dataType : "json",
+            success: function (data) {
+                $.each( data, function( key, val ) {
+                    DATA.push(val.lat, val.lng, val.address,val.number, val.type);
+                    addressLat.push(val.lat);
+                    addressLng.push(val.lng);
+                    addressName.push(val.address);
+                    number.push(val.number);
+                    type = val.type;
+                    console.log("success");
+
+                });
+                checkBoxes(map, image,index);
+            }
+        });
+    }
 
    window.initMap = function(){
 
@@ -109,14 +138,43 @@ $( document ).ready(function() {
             addressSearch(geocoder,map);
         });
 
+
+
         var c = document.querySelector('#autoStationCheckBox');
         c.onclick = function() {
+            var image = {
+                url: '/image/autoParking.png',
+            };
+
             if (c.checked) {
-                autoCheckBox(map);
+                var index = 1;
+                ajax('/autoParking',addressLat,addressLng,addressName,number,type,image,map,index);
+                addressLat.length = 0;
+                addressLng.length = 0;
+                addressName.length = 0;
+                number.length = 0;
             } else {
-                remove();
+                remove(1);
             }
         }
+
+
+       var d = document.querySelector('#fuelStationCheckBox');
+       d.onclick = function() {
+           var image = {
+               url: '/image/fuel.jpg',
+           };
+           if (d.checked) {
+               var index = 2;
+               ajax('/fuelStation',addressLat,addressLng,addressName,number,type,image,map,index);
+               addressLat.length = 0;
+               addressLng.length = 0;
+               addressName.length = 0;
+               number.length = 0;
+           } else {
+               remove(2);
+           }
+       }
     }
 
 
@@ -137,14 +195,9 @@ $( document ).ready(function() {
     }
 
 
-
-    function autoCheckBox(resultsMap) {
+    function checkBoxes(resultsMap, image, statusId) {
+        console.log("checked");
         for(var i=0; i<addressName.length; i++){
-
-            var image = {
-                url: '/image/autoParking.png',
-            };
-
             var contentString = '<div id="content">'+
                 '<div id="siteNotice">'+
                 '</div>'+addressName[i].toString()+
@@ -163,23 +216,51 @@ $( document ).ready(function() {
             });
 
             google.maps.event.addListener( marker, 'click', function() {
-
                 infoWindow.setContent( this.info );
                 infoWindow.open( resultsMap, this );
-
             });
-            removeMarkers.push(marker);
+            removeMarkers.push( {"markerName" : marker, "statusId" : statusId });
         }
-
     }
 
-    function remove(){
-        for(i=0; i<removeMarkers.length; i++){
-            removeMarkers[i].setMap(null);
-        }
-        removeMarkers = [];
+
+    function remove(idvalue){
+        $.each( removeMarkers, function( key, val ) {
+            if (val.statusId == idvalue) {
+                val.markerName.setMap(null);
+            }
+        });
     }
 
+    //load content in menu-nav
+
+    function loadContent(urlToLoad, container) {
+        $.ajax({
+            url: urlToLoad,
+            cache: false,
+            beforeSend: function() { $(container).html('<div class="loader">Loading...</div>'); },
+            success: function(html) { $(container).hide(); $(container).html(html); $(container).show('slow'); }
+        });
+    }
+
+    $("#auto").click(function() {
+      loadContent("/auto","#menuContent")
+    });
+
+
+//hide - show checkbox
+    $(document).ready(function() {
+        $('.contain').hide();
+        $('.btn-group li').click(function(){
+            var target = "#" + $(this).data("target");
+            console.log(target);
+            $(".contain").not(target).hide();
+            $(target).show();
+        });
+    });
 
 
 });
+
+
+

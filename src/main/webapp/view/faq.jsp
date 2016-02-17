@@ -11,6 +11,7 @@
 <head>
     <title>FAQ'S</title>
     <link rel="stylesheet" type="text/css" href="<c:url value="/css/faq.css"/>">
+    <script type="text/javascript" src="/js/faq.js"></script>
 </head>
 <body>
 <div class="content-box moved" data-page="faqs" style="background-color: rgb(52, 101, 170);">
@@ -37,7 +38,14 @@
         <p>&nbsp;</p>
     </div>
     <div class="paragraphs second-block tk-source-sans-pro"></div>
-    <div class="quick-links tk-source-sans-pro"><a href="#map" data-url="products">Map</a></div>
+    <div class="quick-links tk-source-sans-pro">
+
+        <a href="#map" data-url="products">Map</a>
+
+    </div>
+    <p id="back-top">
+        <a href="#top"><span></span></a>
+    </p>
     <br><br><br>
 </div>
 </body>

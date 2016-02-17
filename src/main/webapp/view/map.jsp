@@ -24,21 +24,21 @@
 </head>
 <body>
 <div id="map"></div>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCVUE15kTd5xGvciLtyoXTctuCt64EiDSA&callback=initMap"
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD0STQBkTqhfX0sv1By1wW-Rz7wtly_2xQ&callback=initMap"
         async defer></script>
 
 <div id="site-wrapper">
     <nav class="menu" role="navigation">
         <div id="menu-content">
         <nav class="navbar navbar-inverse">
-            <ul class="nav navbar-nav ">
-                <li><a href="#">AUTO</a></li>
-                <li><a href="#">EDUCATION</a></li>
-                <li><a href="#">MEDICINE</a></li>
-                <li><a href="#">RECREATION</a></li>
-                <li><a href="#">SHOP</a></li>
-                <li><a href="#">SPORT</a></li>
-                <li><a href="#">WELL</a></li>
+            <ul class="nav navbar-nav btn-group">
+                <li data-target="auto-container"><a id="auto" href="#">AUTO</a></li>
+                <li data-target="education-container" id="education"><a href="#">EDUCATION</a></li>
+                <li data-target="medicine-container" id="medicine"><a href="#">MEDICINE</a></li>
+                <li data-target="recreation-container" id="recreation"><a href="#">RECREATION</a></li>
+                <li data-target="shop-container" id="shop"><a href="#">SHOP</a></li>
+                <li data-target="sport-container" id="sport"><a href="#">SPORT</a></li>
+                <li data-target="well-container" id="well"><a href="#">WELL</a></li>
                 <div class="col-lg-6">
                     <div class="input-group">
                         <input type="text" class="form-control" id = "address" placeholder="Search for...">
@@ -50,11 +50,26 @@
             </ul>
         </nav>
         </div>
-        <div id="floating-panel">
+        <div  id="auto-container" class="contain" >
             <label>Parking<input type="checkbox" id="autoStationCheckBox"></label>
             <label>FuelStation<input type="checkbox" id="fuelStationCheckBox"></label>
             <label>AutoService<input type="checkbox" id="autoServiceCheckBox"></label>
-            <label>School<input type="checkbox" id="schoolCheckBox"></label>
+        </div>
+
+        <div class="contain" id="medicine-container" >
+            <label>Library<input type="checkbox" id="libraryCheckBox"></label>
+            <label>FuelStation<input type="checkbox" id="institutionCheckBox"></label>
+            <label>Playschool<input type="checkbox" id="playschoolCheckBox"></label>
+        </div>
+
+        <div class="contain" id="education-container" >
+            <label>Library<input type="checkbox" id="libraryCheckBox"></label>
+            <label>FuelStation<input type="checkbox" id="institutionCheckBox"></label>
+            <label>Playschool<input type="checkbox" id="playschoolCheckBox"></label>
+        </div>
+
+        <div id="menuContent">
+
         </div>
     </nav>
     <a href="#" class="nav-toggle"><span class="fa fa-bars"></span></a>
