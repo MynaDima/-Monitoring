@@ -77,6 +77,8 @@ $( document ).ready(function() {
 
     var dataValues = [];
 
+    var resultSearch = [];
+
 
     function ajax(url,DATA,image,map,index){
         $.ajax({
@@ -86,11 +88,26 @@ $( document ).ready(function() {
                 $.each( data, function( key, val ) {
                     DATA.push({"lat": val.lat, "lng": val.lng, "address": val.address, "number": val.number,"type": val.type});
                     console.log("success");
-
                 });
                 checkBoxes(map, image,index);
             }
         });
+    }
+
+    function checkBoxClick(map,id, urlImage,url,removeIndex){
+        var c = document.querySelector(id);
+        c.onclick = function() {
+            var image = {
+                url: urlImage ,
+            };
+
+            if (c.checked) {
+                ajax(url,dataValues,image,map,removeIndex);
+                dataValues.length = 0;
+            } else {
+                remove(removeIndex);
+            }
+        }
     }
 
    window.initMap = function(){
@@ -105,34 +122,27 @@ $( document ).ready(function() {
             addressSearch(geocoder,map);
         });
 
-        var c = document.querySelector('#autoStationCheckBox');
-        c.onclick = function() {
-            var image = {
-                url: '/image/autoParking.png',
-            };
+        //auto
+        checkBoxClick(map,'#autoStationCheckBox','/image/auto/autoParking.png','/autoParking',1);
+        checkBoxClick(map,'#fuelStationCheckBox', '/image/auto/fuel.jpg', '/fuelStation',2);
+        checkBoxClick(map,'#autoServiceCheckBox', '/image/auto/carService.png', '/serviceStation',3);
 
-            if (c.checked) {
-                var index = 1;
-                ajax('/autoParking',dataValues,image,map,index);
-                dataValues.length = 0;
-            } else {
-                remove(1);
-            }
-        }
+       //education
+        checkBoxClick(map,'#libraryCheckBox', '/image/education/library.png', '/library',4);
+        checkBoxClick(map,'#boardingSchoolCheckBox', '/image/education/boarding-school.jpg', '/boardingSchool',5);
+        checkBoxClick(map,'#highSchoolCheckBox', '/image/education/high-school.png', '/highSchool',6);
+        checkBoxClick(map,'#playSchoolCheckBox', '/image/education/play-school.png', '/playSchool',7);
+        checkBoxClick(map,'#collegeCheckBox', '/image/education/ptu.jpg', '/ptu',8);
+        checkBoxClick(map,'#sportSchoolCheckBox', '/image/education/sport-school.png', '/sportSchool',9);
+        checkBoxClick(map,'#schoolCheckBox', '/image/education/school.jpg', '/school',10);
+        checkBoxClick(map,'#artSchoolCheckBox', '/image/education/art-school.png', '/artschool',11);
 
-       var d = document.querySelector('#fuelStationCheckBox');
-       d.onclick = function() {
-           var image = {
-               url: '/image/fuel.jpg',
-           };
-           if (d.checked) {
-               var index = 2;
-               ajax('/fuelStation',dataValues,image,map,index);
-               dataValues.length = 0;
-           } else {
-               remove(2);
-           }
-       }
+       //medicine
+
+    }
+
+    function sendCoordinates(){
+
     }
 
 
@@ -146,6 +156,19 @@ $( document ).ready(function() {
                     position: results[0].geometry.location,
                     animation: google.maps.Animation.DROP
                 });
+                $.ajax({
+                    type: 'POST',
+                    dataType: 'json',
+                    contentType: 'application/json',
+                    url: '/monitorCoordinates',
+                    data: JSON.stringify(results[0].geometry.location.toJSON()),
+                    success: function(result) {
+                        console.log("success");
+                        console.log(result);
+                    }
+                });
+                console.log(results[0].geometry.location.toJSON());
+
             } else {
                 alert('Geocode was not successful for the following reason: ' + status);
             }
@@ -164,7 +187,7 @@ $( document ).ready(function() {
                 '</div>'+
                 '</div>';
             var infoWindow = new google.maps.InfoWindow({ content: contentString });
-            console.log(val.lat, val.lng);
+            //console.log(val.lat, val.lng);
             var marker = new google.maps.Marker({
                 map: resultsMap,
                 position: {lat:parseFloat(val.lat), lng:parseFloat(val.lng)},
@@ -206,7 +229,7 @@ $( document ).ready(function() {
     });
 
 
-//hide - show checkbox
+    //hide - show checkbox
     $(document).ready(function() {
         $('.contain').hide();
         $('.btn-group li').click(function(){

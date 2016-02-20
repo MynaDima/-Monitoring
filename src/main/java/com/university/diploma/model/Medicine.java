@@ -21,18 +21,20 @@ public class Medicine {
     @Column
     private String type;
     @Column
-    private double lat;
+    private String lat;
     @Column
-    private double lng;
+    private String lng;
 
     public Medicine() {
     }
 
-    public Medicine(int id, String address, String number, String type) {
+    public Medicine(int id, String address, String number, String type, String lat, String lng) {
         this.id = id;
         this.address = address;
         this.number = number;
         this.type = type;
+        this.lat = lat;
+        this.lng = lng;
     }
 
     public int getId() {
@@ -66,4 +68,21 @@ public class Medicine {
     public void setType(String type) {
         this.type = type;
     }
+
+    public String getLat() {
+        return lat;
+    }
+
+    public void setLat(String lat) {
+        this.lat = lat;
+    }
+
+    public String getLng() {
+        return lng;
+    }
+
+    public void setLng(String lng) {
+        this.lng = lng;
+    }
+
 }

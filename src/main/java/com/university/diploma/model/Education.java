@@ -21,18 +21,11 @@ public class Education {
     @Column
     private String type;
     @Column
-    private double lat;
+    private String lat;
     @Column
-    private double lng;
+    private String lng;
 
     public Education() {
-    }
-
-    public Education(int id, String address, String number, String type) {
-        this.id = id;
-        this.address = address;
-        this.number = number;
-        this.type = type;
     }
 
     public int getId() {
@@ -65,5 +58,21 @@ public class Education {
 
     public void setType(String type) {
         this.type = type;
+    }
+
+    public String getLat() {
+        return lat;
+    }
+
+    public void setLat(String lat) {
+        this.lat = lat;
+    }
+
+    public String getLng() {
+        return lng;
+    }
+
+    public void setLng(String lng) {
+        this.lng = lng;
     }
 }
