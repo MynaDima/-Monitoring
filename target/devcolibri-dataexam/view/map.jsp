@@ -43,63 +43,63 @@
                     <div class="input-group">
                         <input type="text" class="form-control" id = "address" placeholder="Search for...">
                             <span class="input-group-btn">
-                                <button class="btn btn-default" id = "submit" type="button">Go!</button>
+                                <button class="btn btn-default" href = "/monitorCoordinates" id = "submit" type="button">Go!</button>
                             </span>
                     </div>
+                    <button id="clearAll" class="btn btn-danger" type="button">Clear all</button>
                 </div>
             </ul>
         </nav>
         </div>
 
         <div  id="auto-container" class="contain" >
-            <label>Parking<input type="checkbox" id="autoStationCheckBox"></label>
+            <label>Parking<input type="checkbox"  id="autoStationCheckBox"></label>
             <label>FuelStation<input type="checkbox" id="fuelStationCheckBox"></label>
             <label>AutoService<input type="checkbox" id="autoServiceCheckBox"></label>
         </div>
 
         <div class="contain" id="medicine-container" >
-            <label>Pharmacy<input type="checkbox" id="institutionCheckBox"></label>
-            <label>Hospital<input type="checkbox" id="institutionCheckBox"></label>
-            <label>Tooth-Hospital<input type="checkbox" id="institutionCheckBox"></label>
-            <label>Maternity-Hospital<input type="checkbox" id="institutionCheckBox"></label>
+            <label>Pharmacy<input type="checkbox"  id="pharmacyCheckBox"></label>
+            <label>Hospital<input type="checkbox" id="hospitalCheckBox"></label>
+            <label>Tooth-Hospital<input type="checkbox" id="toothHospitalCheckBox"></label>
+            <label>Maternity-Hospital<input type="checkbox" id="maternityHospitalCheckBox"></label>
         </div>
 
         <div class="contain" id="education-container" >
             <label>Library<input type="checkbox" id="libraryCheckBox"></label>
-            <label>Boarding school<input type="checkbox" id="libraryCheckBox"></label>
-            <label>Play school<input type="checkbox" id="playschoolCheckBox"></label>
-            <label>Art school<input type="checkbox" id="libraryCheckBox"></label>
-            <label>Specialization school<input type="checkbox" id="institutionCheckBox"></label>
-            <label>PTU<input type="checkbox" id="playschoolCheckBox"></label>
-            <label>High school<input type="checkbox" id="playschoolCheckBox"></label>
-            <label>Sport school<input type="checkbox" id="playschoolCheckBox"></label>
+            <label>Boarding school<input type="checkbox" id="boardingSchoolCheckBox"></label>
+            <label>Play school<input type="checkbox" id="playSchoolCheckBox"></label>
+            <label>Art school<input type="checkbox" id="artSchoolCheckBox"></label>
+            <label>Specialization school<input type="checkbox" id="schoolCheckBox"></label>
+            <label>PTU<input type="checkbox" id="collegeCheckBox"></label>
+            <label>High school<input type="checkbox" id="highSchoolCheckBox"></label>
+            <label>Sport school<input type="checkbox" id="sportSchoolCheckBox"></label>
         </div>
 
         <div  id="recreation-container" class="contain" >
-            <label>Cafe<input type="checkbox" id="autoStationCheckBox"></label>
-            <label>Restaurant<input type="checkbox" id="fuelStationCheckBox"></label>
-            <label>Club<input type="checkbox" id="autoServiceCheckBox"></label>
-            <label>Bouling-Biliard<input type="checkbox" id="autoServiceCheckBox"></label>
-            <label>Museum and Art Galery<input type="checkbox" id="autoServiceCheckBox"></label>
-            <label>Parks<input type="checkbox" id="autoServiceCheckBox"></label>
+            <label>Cafe<input type="checkbox" id="cafeCheckBox"></label>
+            <label>Restaurant<input type="checkbox" id="restaurantCheckBox"></label>
+            <label>Club<input type="checkbox" id="clubCheckBox"></label>
+            <label>Bouling-Biliard<input type="checkbox" id="boulingBiliardCheckBox"></label>
+            <label>Museum and Art Galery<input type="checkbox" id="artCheckBox"></label>
+            <label>Parks<input type="checkbox" id="parkCheckBox"></label>
         </div>
 
         <div  id="sport-container" class="contain" >
-            <label>Beauty Saloon<input type="checkbox" id="autoStationCheckBox"></label>
-            <label>Swimming pool<input type="checkbox" id="fuelStationCheckBox"></label>
-            <label>Dancing studio<input type="checkbox" id="autoServiceCheckBox"></label>
-            <label>Gum and Fitness<input type="checkbox" id="autoServiceCheckBox"></label>
-            <label>Hairdressing<input type="checkbox" id="autoServiceCheckBox"></label>
+            <label>Beauty Saloon<input type="checkbox" id="beautyCheckBox"></label>
+            <label>Swimming pool<input type="checkbox" id="swimmingPoolCheckBox"></label>
+            <label>Dancing studio<input type="checkbox" id="dancingCheckBox"></label>
+            <label>Gum and Fitness<input type="checkbox" id="gumFitnessCheckBox"></label>
+            <label>Hairdressing<input type="checkbox" id="hairdressingCheckBox"></label>
         </div>
 
         <div  id="shop-container" class="contain" >
-            <label>Furniture<input type="checkbox" id="autoStationCheckBox"></label>
-            <label>Clothing & Shoes<input type="checkbox" id="fuelStationCheckBox"></label>
-            <label>Supermarkets<input type="checkbox" id="autoServiceCheckBox"></label>
-            <label>Products for children<input type="checkbox" id="autoServiceCheckBox"></label>
-            <label>Shopping centers<input type="checkbox" id="autoServiceCheckBox"></label>
+            <label>Furniture<input type="checkbox" id="furnitureCheckBox"></label>
+            <label>Clothing & Shoes<input type="checkbox" id="clothingCheckBox"></label>
+            <label>Supermarkets<input type="checkbox" id="supermarketsCheckBox"></label>
+            <label>Products for children<input type="checkbox" id="childrenProductCheckBox"></label>
+            <label>Shopping centers<input type="checkbox" id="shoppingCentersCheckBox"></label>
         </div>
-
 
         <div id="menuContent">
 

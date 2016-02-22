@@ -45,10 +45,8 @@
                             <span class="input-group-btn">
                                 <button class="btn btn-default" href = "/monitorCoordinates" id = "submit" type="button">Go!</button>
                             </span>
-                        <span >
-                                <button class="btn btn-default" href = "/dataCoordinates"  type="button">GoGoGo!</button>
-                            </span>
                     </div>
+                    <button id="clearAll" class="btn btn-danger" type="button">Clear all</button>
                 </div>
             </ul>
         </nav>

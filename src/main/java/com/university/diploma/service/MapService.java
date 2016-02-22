@@ -2,6 +2,7 @@ package com.university.diploma.service;
 
 import com.university.diploma.model.Base;
 
+import java.sql.SQLException;
 import java.util.List;
 
 /**
@@ -9,5 +10,7 @@ import java.util.List;
  */
 public interface MapService {
 
-    List<Base> getByCoordinates(float lat, float lng);
+    List<Base> getByCoordinate(float lat, float lng) throws SQLException, ClassNotFoundException;
+
+
 }

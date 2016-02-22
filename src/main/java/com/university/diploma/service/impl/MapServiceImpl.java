@@ -6,6 +6,8 @@ import com.university.diploma.service.MapService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.sql.*;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -14,11 +16,13 @@ import java.util.List;
 @Service
 public class MapServiceImpl implements MapService {
 
+
     @Autowired
     private MapRepository mapRepository;
 
     @Override
-    public List<Base> getByCoordinates(float lat, float lng) {
+    public List<Base> getByCoordinate(float lat, float lng) {
         return mapRepository.getBaseCoordinates(lat, lng);
     }
+
 }

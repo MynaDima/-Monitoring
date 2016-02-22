@@ -79,6 +79,14 @@ $( document ).ready(function() {
 
     var resultSearch = [];
 
+    var icons = {"автостоянки":'/image/auto/autoParking.png',"АЗС":'/image/auto/fuel.jpg',
+        "СТО и мойки":'/image/auto/carService.png', "библиотеки":'/image/education/library.png',
+        "интернаты":'/image/education/boarding-school.jpg', "ВУЗы":'/image/education/high-school.png',
+        "детские сады":'/image/education/play-school.png', "колледжи, ПТУ и техникумы":'/image/education/ptu.jpg',
+        "спортивные школы": '/image/education/sport-school.png', "школы, гимназии и лицеи":'/image/education/school.jpg',
+        "школы искусств":'/image/education/art-school.png'
+    }
+
 
     function ajax(url,DATA,image,map,index){
         $.ajax({
@@ -87,7 +95,6 @@ $( document ).ready(function() {
             success: function (data) {
                 $.each( data, function( key, val ) {
                     DATA.push({"lat": val.lat, "lng": val.lng, "address": val.address, "number": val.number,"type": val.type});
-                    console.log("success");
                 });
                 checkBoxes(map, image,index);
             }
@@ -122,6 +129,9 @@ $( document ).ready(function() {
             addressSearch(geocoder,map);
         });
 
+        drawSearchResult(map);
+
+
         //auto
         checkBoxClick(map,'#autoStationCheckBox','/image/auto/autoParking.png','/autoParking',1);
         checkBoxClick(map,'#fuelStationCheckBox', '/image/auto/fuel.jpg', '/fuelStation',2);
@@ -139,11 +149,10 @@ $( document ).ready(function() {
 
        //medicine
 
-    }
-
-    function sendCoordinates(){
 
     }
+
+
 
 
     function addressSearch(geocoder, resultsMap) {
@@ -156,22 +165,67 @@ $( document ).ready(function() {
                     position: results[0].geometry.location,
                     animation: google.maps.Animation.DROP
                 });
-                $.ajax({
-                    type: 'POST',
-                    dataType: 'json',
-                    contentType: 'application/json',
-                    url: '/monitorCoordinates',
-                    data: JSON.stringify(results[0].geometry.location.toJSON()),
-                    success: function(result) {
-                        console.log("success");
-                        console.log(result);
-                    }
-                });
+                sendCoordinates(results[0].geometry.location.toJSON(),resultsMap);
                 console.log(results[0].geometry.location.toJSON());
 
             } else {
                 alert('Geocode was not successful for the following reason: ' + status);
             }
+        });
+    }
+
+    function sendCoordinates(result1,map){
+        $.ajax({
+            type: 'POST',
+            dataType: 'json',
+            contentType: 'application/json',
+            url: '/monitorCoordinates',
+            data: JSON.stringify(result1),
+            success: function(result) {
+                console.log("success");
+                console.log(result);
+                //resultSearch = result;
+
+                var cityCircle = new google.maps.Circle({
+                    strokeColor: '000033',
+                    strokeOpacity: 0.8,
+                    strokeWeight: 2,
+                    fillColor: '0000CC',
+                    fillOpacity: 0.35,
+                    map: map,
+                    center: result1,
+                    radius: 3000
+                });
+
+                $.each( result, function( key, val ) {
+                    var icon;
+                    $.each(icons,function(key1,val1){
+                        if(val.type == key1){
+                            console.log("true");
+                            icon = val1;
+                        }
+                    });
+                    var marker = new google.maps.Marker({
+                        map: map,
+                        position: {lat:parseFloat(val.lat), lng:parseFloat(val.lng)},
+                        animation: google.maps.Animation.DROP,
+                        icon:icon
+                    });
+                });
+            }
+        });
+    }
+
+    function drawSearchResult(resultsMap){
+        $('#submit').click(function(){
+            console.log("sd");
+            $.each( resultSearch, function( key, val ) {
+                var marker = new google.maps.Marker({
+                    map: resultsMap,
+                    position: {lat:parseFloat(val.lat), lng:parseFloat(val.lng)},
+                    animation: google.maps.Animation.DROP
+                });
+            });
         });
     }
 
@@ -239,6 +293,9 @@ $( document ).ready(function() {
             $(target).show();
         });
     });
+
+
+
 
 
 });

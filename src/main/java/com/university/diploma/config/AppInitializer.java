@@ -21,7 +21,6 @@ public class AppInitializer extends AbstractAnnotationConfigDispatcherServletIni
         AnnotationConfigWebApplicationContext ctx = new AnnotationConfigWebApplicationContext();
 
         ctx.register(WebAppConfig.class);
-        ctx.register(SecurityConfig.class);
         servletContext.addListener(new ContextLoaderListener(ctx));
 
         ctx.setServletContext(servletContext);
@@ -31,15 +30,19 @@ public class AppInitializer extends AbstractAnnotationConfigDispatcherServletIni
 
         servlet.addMapping("/");
         servlet.setLoadOnStartup(1);
+
+        FilterRegistration.Dynamic securityFilter = servletContext.addFilter("springSecurityFilterChain", DelegatingFilterProxy.class);
+        securityFilter.addMappingForUrlPatterns(null, false, "/*");
     }
+
+
 
     @Override
     protected Class<?>[] getRootConfigClasses() {
         return new Class<?>[]{
-                DataConfig.class
+                DataConfig.class,WebAppConfig.class,SecurityConfig.class
         };
     }
-
 
     @Override
     protected Class<?>[] getServletConfigClasses() {

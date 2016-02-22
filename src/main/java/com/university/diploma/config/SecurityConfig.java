@@ -1,79 +1,64 @@
 package com.university.diploma.config;
 
 /**
- * Created by dima on 2/12/16.
+ * Created by dima on 2/22/16.
  */
-import com.university.diploma.service.impl.UserDetailsServiceImpl;
+import javax.sql.DataSource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.security.authentication.encoding.ShaPasswordEncoder;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
-import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+import org.springframework.security.web.authentication.AuthenticationSuccessHandler;
+import org.springframework.security.web.authentication.SavedRequestAwareAuthenticationSuccessHandler;
 
 @Configuration
 @EnableWebSecurity
-@EnableGlobalMethodSecurity(securedEnabled = true)
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Autowired
-    private UserDetailsServiceImpl userDetailsService;
+    DataSource dataSource;
 
-    // регистрируем нашу реализацию UserDetailsService
-    // а также PasswordEncoder для приведения пароля в формат SHA1
     @Autowired
-    public void registerGlobalAuthentication(AuthenticationManagerBuilder auth) throws Exception {
-        auth
-                .userDetailsService(userDetailsService)
-                .passwordEncoder(getShaPasswordEncoder());
+    public void configAuthentication(AuthenticationManagerBuilder auth) throws Exception {
+
+        auth.jdbcAuthentication().dataSource(dataSource)
+                .usersByUsernameQuery(
+                        "select username,password, enabled from users where username=?")
+                .authoritiesByUsernameQuery(
+                        "select username, role from user_roles where username=?");
     }
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
-        // включаем защиту от CSRF атак
-        http.csrf()
-                .disable()
-                // указываем правила запросов
-                // по которым будет определятся доступ к ресурсам и остальным данным
-                .authorizeRequests()
-                .antMatchers("/resources/**", "/**").permitAll()
-                .anyRequest().permitAll()
-                .and();
 
-        http.formLogin()
-                // указываем страницу с формой логина
-                .loginPage("/login")
-                // указываем action с формы логина
-                .loginProcessingUrl("/j_spring_security_check")
-                // указываем URL при неудачном логине
-                .failureUrl("/login?error")
-                // Указываем параметры логина и пароля с формы логина
-                .usernameParameter("j_username")
-                .passwordParameter("j_password")
-                // даем доступ к форме логина всем
-                .permitAll();
-
-        http.logout()
-                // разрешаем делать логаут всем
-                .permitAll()
-                // указываем URL логаута
-                .logoutUrl("/logout")
-                // указываем URL при удачном логауте
-                .logoutSuccessUrl("/login?logout")
-                // делаем не валидной текущую сессию
-                .invalidateHttpSession(true);
-
+        http.authorizeRequests()
+                .antMatchers("/admin/**").access("hasRole('ROLE_ADMIN')")
+                .antMatchers("/user/**").access("hasRole('ROLE_USER')")
+                .and()
+                .formLogin().loginPage("/login").failureUrl("/login?error")
+                .usernameParameter("username").passwordParameter("password")
+                .successHandler(savedRequestAwareAuthenticationSuccessHandler())
+                .defaultSuccessUrl("/user")
+                .and()
+                .logout().logoutSuccessUrl("/login?logout")
+                .and()
+                .exceptionHandling().accessDeniedPage("/403")
+                .and()
+                .csrf();
     }
 
-    // Указываем Spring контейнеру, что надо инициализировать <b></b>ShaPasswordEncoder
-    // Это можно вынести в WebAppConfig, но для понимаемости оставил тут
-    @Bean
-    public ShaPasswordEncoder getShaPasswordEncoder(){
-        return new ShaPasswordEncoder();
-    }
 
+        @Bean
+        public SavedRequestAwareAuthenticationSuccessHandler
+        savedRequestAwareAuthenticationSuccessHandler() {
+
+            SavedRequestAwareAuthenticationSuccessHandler auth
+                    = new SavedRequestAwareAuthenticationSuccessHandler();
+            auth.setTargetUrlParameter("user");
+            return auth;
+        }
 
 }
