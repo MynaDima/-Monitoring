@@ -1,0 +1,95 @@
+body{
+    background-color: #B22222;
+}
+
+.box {
+    width: 400px;
+    margin: 20px auto;
+    background: #fff;
+    border: 1px solid #d1d1d1;
+    padding: 10px;
+    font-family: Georgia, Helvetica, sans-serif;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-box-shadow: 0px 0px 10px #ddd;
+    -webkit-box-shadow: 0px 0px 10px #ddd;
+}
+h3 {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 5px;
+    /*background: -moz-linear-gradient(center top, #efefef 0%,#e0e0e0 100%);*/
+    /*background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #efefef),color-stop(1, #e0e0e0));*/
+    border: 1px solid #d1d1d1;
+    color: #c1c1c1;
+    font-size: 20px;
+    font-weight: normal;
+    text-shadow: 1px 1px 0px #fff;
+    margin:0;
+}
+h3 span {
+    float: right;
+    cursor: pointer;
+}
+h3 span:hover {
+    text-shadow: 0px 0px 3px #a1eeff;
+}
+ul {
+    padding: 5px;
+    overflow: hidden;
+    margin:0;
+}
+ul li {
+    font-size: 20px;
+    list-style-type: square;
+    list-style-position: inside;
+    color: #a1a1a1;
+    padding: 5px;
+}
+
+.radiusH{
+    border-radius: 40px 10px ;
+    background-color: #0f0f0f;
+    padding: 10px;
+    color: #b9def0;
+    margin: 10px;
+}
+#education{
+    position: relative;
+    float: left;
+    margin: 10px;
+}
+
+#auto{
+    float: left;
+    margin: 10px;
+}
+
+#recreation{
+    float: left;
+    margin: 10px;
+}
+
+#shops{
+    float: left;
+    margin: 10px;
+}
+
+#sport{
+    float: left;
+    margin: 10px;
+}
+
+
+.quick-links {
+    background: black;
+    bottom: 0;
+    /* display: none; */
+    font-size: 22px;
+    padding: 25px;
+    position: fixed;
+    right: 0;
+    text-align: center;
+    width: 285px;
+    text-align: left !important;
+}

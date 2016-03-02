@@ -8,6 +8,6 @@ import com.university.diploma.model.User;
 
 public interface UserService {
 
-    User getUser(String login);
+    User getIdByName(String name);
 
 }

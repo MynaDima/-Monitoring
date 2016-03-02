@@ -28,11 +28,29 @@ public class Recreation {
     public Recreation() {
     }
 
-    public Recreation(int id, String address, String number, String type) {
+    public Recreation(int id, String address, String number, String type, double lat, double lng) {
         this.id = id;
         this.address = address;
         this.number = number;
         this.type = type;
+        this.lat = lat;
+        this.lng = lng;
+    }
+
+    public double getLat() {
+        return lat;
+    }
+
+    public void setLat(double lat) {
+        this.lat = lat;
+    }
+
+    public double getLng() {
+        return lng;
+    }
+
+    public void setLng(double lng) {
+        this.lng = lng;
     }
 
     public int getId() {
