@@ -9,8 +9,10 @@ import org.springframework.data.repository.query.Param;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.util.logging.Logger;
 
@@ -28,10 +30,9 @@ public class UserController {
     @Autowired
     UserService userService;
 
-
-    @RequestMapping(value="/getUserSettings", method = RequestMethod.GET)
+    @RequestMapping(value = "/getUserSettings", method = RequestMethod.GET)
+    @ResponseBody
     public UserSettings getUserSettings(){
-
         Authentication auth = SecurityContextHolder.getContext().getAuthentication();
         String name = auth.getName();
         logger.info(name);
@@ -40,11 +41,25 @@ public class UserController {
         Integer id = user.getId();
         logger.info(String.valueOf(id));
 
-        UserSettings userSettings = new UserSettings();
+        UserSettings  userSettings = userSettingsService.getUserSettings(id);
+        logger.info(userSettings.toString());
+        return  userSettings;
+    }
+
+
+    @RequestMapping(value="/setUserSettings", method = RequestMethod.POST, headers = {"Content-type=application/json"})
+    public void setUserSettings(@RequestBody UserSettings userSettings){
+
+        Authentication auth = SecurityContextHolder.getContext().getAuthentication();
+        String name = auth.getName();
+        logger.info(name);
+
+        User user = userService.getIdByName(name);
+        Integer id = user.getId();
+        logger.info(String.valueOf(id));
         userSettings.setId(id);
-        userSettings.setBouling(true);
+
         userSettingsService.setUserSettings(userSettings);
-        return userSettings;
     }
 
 }

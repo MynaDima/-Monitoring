@@ -16,8 +16,8 @@ public class UserSettingsServiceImpl implements UserSettingsService{
     private UserSettingsRepository userSettingsRepository;
 
     @Override
-    public UserSettings getUserSettings(String userName) {
-        return null;
+    public UserSettings getUserSettings(Integer id) {
+        return userSettingsRepository.findOne(id);
     }
 
     @Override

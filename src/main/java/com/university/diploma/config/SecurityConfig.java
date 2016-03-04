@@ -38,27 +38,27 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .antMatchers("/admin/**").access("hasRole('ROLE_ADMIN')")
                 .antMatchers("/user/**").access("hasRole('ROLE_USER')")
                 .and()
-                .formLogin().loginPage("/login").failureUrl("/login?error")
+                .formLogin().loginPage("/login")
                 .usernameParameter("username").passwordParameter("password")
-                .successHandler(savedRequestAwareAuthenticationSuccessHandler())
+//                .successHandler(savedRequestAwareAuthenticationSuccessHandler())
                 .defaultSuccessUrl("/user")
                 .and()
                 .logout().logoutSuccessUrl("/login?logout")
                 .and()
                 .exceptionHandling().accessDeniedPage("/403")
                 .and()
-                .csrf();
+                .csrf().disable();
     }
 
 
-        @Bean
-        public SavedRequestAwareAuthenticationSuccessHandler
-        savedRequestAwareAuthenticationSuccessHandler() {
-
-            SavedRequestAwareAuthenticationSuccessHandler auth
-                    = new SavedRequestAwareAuthenticationSuccessHandler();
-            auth.setTargetUrlParameter("user");
-            return auth;
-        }
+//        @Bean
+//        public SavedRequestAwareAuthenticationSuccessHandler
+//        savedRequestAwareAuthenticationSuccessHandler() {
+//
+//            SavedRequestAwareAuthenticationSuccessHandler auth
+//                    = new SavedRequestAwareAuthenticationSuccessHandler();
+//            auth.setTargetUrlParameter("user");
+//            return auth;
+//        }
 
 }

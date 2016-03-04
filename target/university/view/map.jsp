@@ -43,7 +43,7 @@
                     <div class="input-group">
                         <input type="text" class="form-control" id = "address" placeholder="Search for...">
                             <span class="input-group-btn">
-                                <button class="btn btn-default" href = "/monitorCoordinates" id = "submit" type="button">Go!</button>
+                                <button class="btn btn-default"  href = "/monitorCoordinates" id = "submit" type="button">Go!</button>
                             </span>
                     </div>
                     <button id="clearAll" class="btn btn-danger" type="button">Clear all</button>

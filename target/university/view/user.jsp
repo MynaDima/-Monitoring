@@ -29,8 +29,8 @@
         <div class="box">
             <h3>Авто<span class="expand">+</span></h3>
             <ul>
-                <li>СТО і мийка для авто  <input type="checkbox" data-toggle="toggle" id="autoService"/></li>
-                <li>Автостоянка  <input type="checkbox" data-toggle="toggle" id="autoParking"/></li>
+                <li>СТО і мийка для авто  <input type="checkbox" data-toggle="toggle" id="autoservice"/></li>
+                <li>Автостоянка  <input type="checkbox" data-toggle="toggle" id="autoparking"/></li>
             </ul>
         </div>
     </div>
@@ -40,11 +40,11 @@
             <h3>Освіта<span class="expand">+</span></h3>
             <ul>
                 <li>Бібліотека  <input type="checkbox" data-toggle="toggle" id="library"/></li>
-                <li>Дитячий садок  <input type="checkbox" data-toggle="toggle"  id="playSchool"/></li>
+                <li>Дитячий садок  <input type="checkbox" data-toggle="toggle"  id="playschool"/></li>
                 <li>Коледжи  <input type="checkbox" data-toggle="toggle" id="ptu"/></li>
-                <li>Спортивні школи  <input type="checkbox" data-toggle="toggle" id="sportSchool"/></li>
+                <li>Спортивні школи  <input type="checkbox" data-toggle="toggle" id="sportschool"/></li>
                 <li>Школи, гімназії, ліцеї  <input type="checkbox" data-toggle="toggle" id="school"/></li>
-                <li>Школи мистецтв  <input type="checkbox" data-toggle="toggle" id="artSchool"/></li>
+                <li>Школи мистецтв  <input type="checkbox" data-toggle="toggle" id="artschool"/></li>
             </ul>
         </div>
     </div>
@@ -53,7 +53,7 @@
         <div class="box">
             <h3>Відрочинок<span class="expand">+</span></h3>
             <ul>
-                <li>Ресторани  <input type="checkbox" data-toggle="toggle" id="restoraun"/></li>
+                <li>Ресторани  <input type="checkbox" data-toggle="toggle"  id="restoraun"/></li>
                 <li>Боулінг та більярд  <input type="checkbox" data-toggle="toggle" id="bouling"/></li>
                 <li>Нічні клуби  <input type="checkbox" data-toggle="toggle" id="club"/></li>
                 <li>Кафе  <input type="checkbox" data-toggle="toggle" id="cafe"/></li>
@@ -71,8 +71,8 @@
             <ul>
                 <li>Базари  <input type="checkbox" data-toggle="toggle" id="market"/></li>
                 <li>Супермаркети  <input type="checkbox" data-toggle="toggle" id="superMarket"/></li>
-                <li>Дитячі магазини  <input type="checkbox" data-toggle="toggle" id="childrenShop"/></li>
-                <li>Торгові центри  <input type="checkbox" data-toggle="toggle" id="shopCenter"/></li>
+                <li>Дитячі магазини  <input type="checkbox" data-toggle="toggle" id="childrenshop"/></li>
+                <li>Торгові центри  <input type="checkbox" data-toggle="toggle" id="shopcenter"/></li>
             </ul>
         </div>
     </div>
@@ -82,18 +82,18 @@
         <div class="box">
             <h3>Спорт, здоров'я та краса<span class="expand">+</span></h3>
             <ul>
-                <li>Басейни  <input type="checkbox" data-toggle="toggle" id="swimmingPool"/></li>
+                <li>Басейни  <input type="checkbox" data-toggle="toggle" id="swimmingpool"/></li>
                 <li>Тренажерні та фітнес зали  <input type="checkbox" data-toggle="toggle" id="gum"/></li>
-                <li>Танцювальні студії  <input type="checkbox" data-toggle="toggle" id="dancingStudio"/></li>
+                <li>Танцювальні студії  <input type="checkbox" data-toggle="toggle" id="dancingstudio"/></li>
                 <li>Перукарня  <input type="checkbox" data-toggle="toggle" id="head"/></li>
-                <li>Салони краси  <input type="checkbox" data-toggle="toggle" id="beautySaloon"/></li>
+                <li>Салони краси  <input type="checkbox" data-toggle="toggle" id="beautysaloon"/></li>
                 <li>Бювети з чистою водою  <input type="checkbox" data-toggle="toggle" id="well"/></li>
             </ul>
         </div>
     </div>
 
     <div class="save">
-       <%--button--%>
+       <button id="save" class="btn-success">Save</button>
     </div>
 
     <div class="quick-links tk-source-sans-pro">

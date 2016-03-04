@@ -7,7 +7,7 @@ import com.university.diploma.model.UserSettings;
  */
 public interface UserSettingsService {
 
-    UserSettings getUserSettings(String userName);
+    UserSettings getUserSettings(Integer id);
 
     UserSettings setUserSettings(UserSettings userSettings);
 

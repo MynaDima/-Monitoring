@@ -42,15 +42,17 @@ public class LoginController {
         ModelAndView model = new ModelAndView();
         if (error != null) {
             model.addObject("error", "Invalid username and password!");
-//            return "redirect:/403";
+
+            return model;
         }
 
         if (logout != null) {
             model.addObject("msg", "You've been logged out successfully.");
-//            return "redirect:/";
+
+            return model;
         }
 
-        model.setViewName("user");
+//        model.setViewName("user");
         return model;
     }
 

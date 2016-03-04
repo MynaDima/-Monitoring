@@ -317,4 +317,37 @@ public class UserSettings {
     public void setWell(boolean well) {
         this.well = well;
     }
+
+    @Override
+    public String toString() {
+        return "UserSettings{" +
+                "id=" + id +
+                ", autoservice=" + autoservice +
+                ", autoparking=" + autoparking +
+                ", library=" + library +
+                ", playschool=" + playschool +
+                ", ptu=" + ptu +
+                ", sportschool=" + sportschool +
+                ", school=" + school +
+                ", artschool=" + artschool +
+                ", restoraun=" + restoraun +
+                ", bouling=" + bouling +
+                ", club=" + club +
+                ", cafe=" + cafe +
+                ", musiem=" + musiem +
+                ", cinema=" + cinema +
+                ", thieter=" + thieter +
+                ", parks=" + parks +
+                ", market=" + market +
+                ", supermarket=" + supermarket +
+                ", childrenshop=" + childrenshop +
+                ", shopcenter=" + shopcenter +
+                ", swimmingpool=" + swimmingpool +
+                ", gum=" + gum +
+                ", dancingstudio=" + dancingstudio +
+                ", head=" + head +
+                ", beautysaloon=" + beautysaloon +
+                ", well=" + well +
+                '}';
+    }
 }
