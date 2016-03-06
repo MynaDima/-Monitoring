@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    var result =[];
+    var result;
 
     $.ajax({
         url: '/getUserSettings',
@@ -17,7 +17,7 @@ $(document).ready(function(){
         }
     });
 
-    var checkedBox=[];
+
 
     $("ul").hide();
     $("ul li:odd").css("background-color", "#efefef");
@@ -25,44 +25,55 @@ $(document).ready(function(){
         $(this).parent().next().slideToggle();
     });
 
+    var allChecked = [];
+
+    var checkedBox=[];
+
+
     function checkBoxCheckedReq(){
+
+        var allCheckboxes = $(".questions input:checkbox:enabled");
+
 
         $('.questions input:checkbox:checked').each(function(){
             checkedBox.push(this.id);
         });
 
-    };
+        $.each( allCheckboxes, function( key0, val0 ) {
+            allChecked.push(this.id);
+        });
 
-
-
-    $('#save').click(function(){
-
-        //$.each(checkedBox, function( key, val ) {
-        //    console.log(key,val);
-        //});
-
-        checkBoxCheckedReq();
-
-        $.each( result, function( key0, val0 ) {
+        $.each( allChecked, function( key0, val0 ) {
             $.each( checkedBox, function( key1, val1 ) {
-                if(key0==val1){
-                    console.log(key0, val0);
-                    val0 = true;
-                    console.log(key0, val0);
-                }
-                else {
-                    val0 = false;
+                if(val0==val1){
+                    delete allChecked[key0];
                 }
             });
         });
 
+    };
 
-        $.each( result, function( key, val ) {
-            console.log(key,val);
+    $('#save').click(function(){
+
+        checkBoxCheckedReq();
+
+
+        $.each( result, function( key0, val0 ) {
+            $.each( checkedBox, function( key1, val1 ) {
+                if(key0==val1){
+                   result[key0]= true;
+                }
+            });
         });
 
+        $.each( result, function( key0, val0 ) {
+            $.each(allChecked, function( key1, val1 ) {
 
-
+                if(key0==val1){
+                    result[key0]= false;
+                }
+            });
+        });
 
 
         $.ajax({
@@ -71,11 +82,14 @@ $(document).ready(function(){
             type: 'POST',
             crossDomain: true,
             contentType: 'application/json',
-            data: result,
+            data: JSON.stringify(result),
             success: function (data) {
                 console.log("succes save")
             }
         });
+        
+        checkedBox.length = 0;
+        allChecked.length = 0;
 
     });
 

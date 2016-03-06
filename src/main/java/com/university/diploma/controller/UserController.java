@@ -35,11 +35,9 @@ public class UserController {
     public UserSettings getUserSettings(){
         Authentication auth = SecurityContextHolder.getContext().getAuthentication();
         String name = auth.getName();
-        logger.info(name);
 
         User user = userService.getIdByName(name);
         Integer id = user.getId();
-        logger.info(String.valueOf(id));
 
         UserSettings  userSettings = userSettingsService.getUserSettings(id);
         logger.info(userSettings.toString());
@@ -48,6 +46,7 @@ public class UserController {
 
 
     @RequestMapping(value="/setUserSettings", method = RequestMethod.POST, headers = {"Content-type=application/json"})
+    @ResponseBody
     public void setUserSettings(@RequestBody UserSettings userSettings){
 
         Authentication auth = SecurityContextHolder.getContext().getAuthentication();

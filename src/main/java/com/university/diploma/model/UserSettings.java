@@ -109,7 +109,6 @@ public class UserSettings {
         this.id = id;
     }
 
-
     public boolean isAutoservice() {
         return autoservice;
     }

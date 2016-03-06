@@ -24,8 +24,12 @@
 </head>
 <body>
 <div id="map"></div>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD0STQBkTqhfX0sv1By1wW-Rz7wtly_2xQ&callback=initMap"
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCoVikQxmDQkKe8_8Tl7uK8d1lBfUnQqAk=initMap"
         async defer></script>
+
+<%--"https://maps.googleapis.com/maps/api/js?key=AIzaSyD0STQBkTqhfX0sv1By1wW-Rz7wtly_2xQ&callback=initMap"--%>
+
+<%--AIzaSyDIakV4lN2i8qnRdV4rAGcm0DBKg2as1NQ !!!!!home--%>
 
 <div id="site-wrapper">
     <nav class="menu" role="navigation">
@@ -43,9 +47,7 @@
                     <div class="input-group">
                         <input type="text" class="form-control" id = "address" placeholder="Search for...">
                             <span class="input-group-btn">
-                                <button class="btn btn-default" type="hidden"
-                                        name="${_csrf.parameterName}"
-                                        value="${_csrf.token}" href = "/monitorCoordinates" id = "submit" type="button">Go!</button>
+                                <button class="btn btn-default"  href = "/monitorCoordinates" id = "submit" type="button">Go!</button>
                             </span>
                     </div>
                     <button id="clearAll" class="btn btn-danger" type="button">Clear all</button>
