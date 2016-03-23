@@ -24,12 +24,14 @@
 </head>
 <body>
 <div id="map"></div>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCoVikQxmDQkKe8_8Tl7uK8d1lBfUnQqAk=initMap"
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD0STQBkTqhfX0sv1By1wW-Rz7wtly_2xQ&callback=initMap"
         async defer></script>
 
 <%--"https://maps.googleapis.com/maps/api/js?key=AIzaSyD0STQBkTqhfX0sv1By1wW-Rz7wtly_2xQ&callback=initMap"--%>
 
 <%--AIzaSyDIakV4lN2i8qnRdV4rAGcm0DBKg2as1NQ !!!!!home--%>
+
+
 
 <div id="site-wrapper">
     <nav class="menu" role="navigation">

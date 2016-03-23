@@ -87,7 +87,7 @@ $(document).ready(function(){
                 console.log("succes save")
             }
         });
-        
+
         checkedBox.length = 0;
         allChecked.length = 0;
 

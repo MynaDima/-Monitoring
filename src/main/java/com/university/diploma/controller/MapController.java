@@ -2,7 +2,9 @@ package com.university.diploma.controller;
 
 import com.university.diploma.model.Base;
 import com.university.diploma.model.Coordinates;
+import com.university.diploma.model.PollutionPlace;
 import com.university.diploma.service.MapService;
+import com.university.diploma.service.PollutionPlaceService;
 import com.university.diploma.service.impl.MapServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -27,6 +29,9 @@ public class MapController {
     @Autowired
     MapService mapService;
 
+    @Autowired
+    PollutionPlaceService pollutionPlaceService;
+
     private Logger logger = Logger.getLogger(String.valueOf(MapController.class));
 
     @RequestMapping(value = "/auto", method = RequestMethod.GET)
@@ -45,5 +50,13 @@ public class MapController {
         logger.info(String.valueOf(dataList.size()));
         return dataList;
     }
+
+    @RequestMapping(value = "/getPollutionPlace", method = RequestMethod.GET)
+    @ResponseBody
+    public List<PollutionPlace> getPollutionPlaces() {
+        List<PollutionPlace> pollutionPlacesList = pollutionPlaceService.getAllPollution();
+        return pollutionPlacesList;
+    }
+
 
 }
