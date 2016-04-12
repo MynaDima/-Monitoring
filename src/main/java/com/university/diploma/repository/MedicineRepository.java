@@ -19,4 +19,5 @@ public interface MedicineRepository extends JpaRepository<Medicine, Integer> {
             "where medicine.type = ?1 and lat <>'null' " ,
             nativeQuery=true)
     List<Medicine> getByType(String type);
+
 }

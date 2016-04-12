@@ -20,6 +20,7 @@ public class MapServiceImpl implements MapService {
     @Autowired
     private MapRepository mapRepository;
 
+
     @Override
     public List<Base> getByCoordinate(float lat, float lng) {
         return mapRepository.getBaseCoordinates(lat, lng);

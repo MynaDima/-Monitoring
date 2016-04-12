@@ -1,5 +1,6 @@
 package com.university.diploma.service.impl;
 
+import com.sun.org.apache.xpath.internal.operations.Bool;
 import com.university.diploma.model.User;
 import com.university.diploma.repository.UserRepository;
 import com.university.diploma.service.UserService;
@@ -19,4 +20,22 @@ public class UserServiceImpl implements UserService {
     public User getIdByName(String name) {
         return userRepository.getUserIdByName(name);
     }
+
+    @Override
+    public User getUserBySocialId(String id) {
+        return userRepository.getUserBySocialId(id);
+    }
+
+    @Override
+    public User addUserBySocialAuth(String name, String socialId, String email) {
+        return userRepository.addSocialUser(name, email,socialId);
+    }
+
+    @Override
+    public User addUser(User user) {
+        return userRepository.save(user);
+    }
+
+
+
 }

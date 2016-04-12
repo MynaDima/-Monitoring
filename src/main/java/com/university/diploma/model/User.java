@@ -14,20 +14,24 @@ public class User {
 
     @Id
     private int id;
-
     @Column(name = "username")
     private String login;
     @Column(name = "password")
     private String password;
-
+    @Column
+    private String email;
+    @Column(name = "id_social")
+    private String socialId;
 
     public User() {
     }
 
-    public User(int id, String login, String password) {
+    public User(int id, String login, String password, String email, String socialId) {
         this.id = id;
         this.login = login;
         this.password = password;
+        this.email = email;
+        this.socialId = socialId;
     }
 
     public int getId() {
@@ -54,12 +58,30 @@ public class User {
         this.password = password;
     }
 
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getSocialId() {
+        return socialId;
+    }
+
+    public void setSocialId(String socialId) {
+        this.socialId = socialId;
+    }
+
     @Override
     public String toString() {
         return "User{" +
                 "id=" + id +
                 ", login='" + login + '\'' +
                 ", password='" + password + '\'' +
+                ", email='" + email + '\'' +
+                ", socialId='" + socialId + '\'' +
                 '}';
     }
 }

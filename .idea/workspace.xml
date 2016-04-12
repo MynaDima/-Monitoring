@@ -6,36 +6,397 @@
   </component>
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/src/main/java/com/university/diploma/service/impl/EducationServiceImpl.java" line="22" />
-    <bookmark url="file://$APPLICATION_CONFIG_DIR$/consoles/db/7713de5e-27aa-423a-a29f-44a04d186fa1/console_1.sql" line="0" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0327366b-7a73-4226-bdeb-546f2106a17c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/university/diploma/model/Pollution.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/university/diploma/model/Pollution.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/model/Pollution.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/com_devcolibri_dataexam_war.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/com_devcolibri_dataexam_war_exploded.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_7_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_10.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_10.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_4_0_2_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_4_2_5_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_4_2_5_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_0_api_1_0_1_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_15_0_GA.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_0_GA.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_1_spec_1_0_1_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_5_2_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_1_3_4_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_acl_3_2_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_3_2_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_3_2_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_taglibs_3_2_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_3_2_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_0_3_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_0_3_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_0_3_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_0_3_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_0_3_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_3_1_4_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_3_1_4_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_3_1_4_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_0_3_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_0_3_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__postgresql_postgresql_9_1_901_1_jdbc4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/university/WEB-INF/lib/jackson-core-asl-1.9.10.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/university/WEB-INF/lib/jackson-mapper-asl-1.9.10.jar" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/image/auto/autoParking.png" afterPath="$PROJECT_DIR$/src/main/webapp/image/auto/autoParking.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/image/auto/carService.png" afterPath="$PROJECT_DIR$/src/main/webapp/image/auto/carService.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/image/auto/fuel.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/image/auto/fuel.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/image/bg.gif" afterPath="$PROJECT_DIR$/src/main/webapp/image/bg.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/image/doh.png" afterPath="$PROJECT_DIR$/src/main/webapp/image/doh.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/image/education/art-school.png" afterPath="$PROJECT_DIR$/src/main/webapp/image/education/art-school.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/image/education/boarding-school.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/image/education/boarding-school.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/image/education/high-school.png" afterPath="$PROJECT_DIR$/src/main/webapp/image/education/high-school.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/image/education/library.png" afterPath="$PROJECT_DIR$/src/main/webapp/image/education/library.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/image/education/play-school.png" afterPath="$PROJECT_DIR$/src/main/webapp/image/education/play-school.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/image/education/ptu.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/image/education/ptu.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/image/education/school.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/image/education/school.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/image/education/sport-school.png" afterPath="$PROJECT_DIR$/src/main/webapp/image/education/sport-school.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/image/icons-social_media.png" afterPath="$PROJECT_DIR$/src/main/webapp/image/icons-social_media.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/image/main-logo.png" afterPath="$PROJECT_DIR$/src/main/webapp/image/main-logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/image/map.ico" afterPath="$PROJECT_DIR$/src/main/webapp/image/map.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/image/univ.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/image/univ.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/image/univ1.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/image/univ1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/image/up-arrow.png" afterPath="$PROJECT_DIR$/src/main/webapp/image/up-arrow.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/university/diploma/config/AppInitializer.class" afterPath="$PROJECT_DIR$/target/classes/com/university/diploma/config/AppInitializer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/university/diploma/config/DataConfig.class" afterPath="$PROJECT_DIR$/target/classes/com/university/diploma/config/DataConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/university/diploma/config/SecurityConfig.class" afterPath="$PROJECT_DIR$/target/classes/com/university/diploma/config/SecurityConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/university/diploma/config/WebAppConfig.class" afterPath="$PROJECT_DIR$/target/classes/com/university/diploma/config/WebAppConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/university/diploma/controller/AutoController.class" afterPath="$PROJECT_DIR$/target/classes/com/university/diploma/controller/AutoController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/university/diploma/controller/EducationController.class" afterPath="$PROJECT_DIR$/target/classes/com/university/diploma/controller/EducationController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/university/diploma/controller/FAQController.class" afterPath="$PROJECT_DIR$/target/classes/com/university/diploma/controller/FAQController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/university/diploma/controller/HomeController.class" afterPath="$PROJECT_DIR$/target/classes/com/university/diploma/controller/HomeController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/university/diploma/controller/LoginController.class" afterPath="$PROJECT_DIR$/target/classes/com/university/diploma/controller/LoginController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/university/diploma/controller/MapController.class" afterPath="$PROJECT_DIR$/target/classes/com/university/diploma/controller/MapController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/university/diploma/controller/MedicineController.class" afterPath="$PROJECT_DIR$/target/classes/com/university/diploma/controller/MedicineController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/university/diploma/controller/UserController.class" afterPath="$PROJECT_DIR$/target/classes/com/university/diploma/controller/UserController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/university/diploma/model/Auto.class" afterPath="$PROJECT_DIR$/target/classes/com/university/diploma/model/Auto.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/university/diploma/model/Base.class" afterPath="$PROJECT_DIR$/target/classes/com/university/diploma/model/Base.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/university/diploma/model/Coordinates.class" afterPath="$PROJECT_DIR$/target/classes/com/university/diploma/model/Coordinates.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/university/diploma/model/Education.class" afterPath="$PROJECT_DIR$/target/classes/com/university/diploma/model/Education.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/university/diploma/model/Medicine.class" afterPath="$PROJECT_DIR$/target/classes/com/university/diploma/model/Medicine.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/university/diploma/model/Recreation.class" afterPath="$PROJECT_DIR$/target/classes/com/university/diploma/model/Recreation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/university/diploma/model/Shop.class" afterPath="$PROJECT_DIR$/target/classes/com/university/diploma/model/Shop.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/university/diploma/model/Sport.class" afterPath="$PROJECT_DIR$/target/classes/com/university/diploma/model/Sport.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/university/diploma/model/User.class" afterPath="$PROJECT_DIR$/target/classes/com/university/diploma/model/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/university/diploma/model/UserSettings.class" afterPath="$PROJECT_DIR$/target/classes/com/university/diploma/model/UserSettings.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/university/diploma/model/Well.class" afterPath="$PROJECT_DIR$/target/classes/com/university/diploma/model/Well.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/university/diploma/model/enums/UserRoleEnum.class" afterPath="$PROJECT_DIR$/target/classes/com/university/diploma/model/enums/UserRoleEnum.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/university/diploma/repository/AutoRepository.class" afterPath="$PROJECT_DIR$/target/classes/com/university/diploma/repository/AutoRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/university/diploma/repository/EducationRepository.class" afterPath="$PROJECT_DIR$/target/classes/com/university/diploma/repository/EducationRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/university/diploma/repository/MapRepository.class" afterPath="$PROJECT_DIR$/target/classes/com/university/diploma/repository/MapRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/university/diploma/repository/MedicineRepository.class" afterPath="$PROJECT_DIR$/target/classes/com/university/diploma/repository/MedicineRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/university/diploma/repository/RecreationRepository.class" afterPath="$PROJECT_DIR$/target/classes/com/university/diploma/repository/RecreationRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/university/diploma/repository/ShopRepository.class" afterPath="$PROJECT_DIR$/target/classes/com/university/diploma/repository/ShopRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/university/diploma/repository/SportRepository.class" afterPath="$PROJECT_DIR$/target/classes/com/university/diploma/repository/SportRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/university/diploma/repository/UserRepository.class" afterPath="$PROJECT_DIR$/target/classes/com/university/diploma/repository/UserRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/university/diploma/repository/UserSettingsRepository.class" afterPath="$PROJECT_DIR$/target/classes/com/university/diploma/repository/UserSettingsRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/university/diploma/repository/WellRepository.class" afterPath="$PROJECT_DIR$/target/classes/com/university/diploma/repository/WellRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/university/diploma/service/AutoService.class" afterPath="$PROJECT_DIR$/target/classes/com/university/diploma/service/AutoService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/university/diploma/service/EducationService.class" afterPath="$PROJECT_DIR$/target/classes/com/university/diploma/service/EducationService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/university/diploma/service/MapService.class" afterPath="$PROJECT_DIR$/target/classes/com/university/diploma/service/MapService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/university/diploma/service/MedicineService.class" afterPath="$PROJECT_DIR$/target/classes/com/university/diploma/service/MedicineService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/university/diploma/service/RecreationService.class" afterPath="$PROJECT_DIR$/target/classes/com/university/diploma/service/RecreationService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/university/diploma/service/ShopService.class" afterPath="$PROJECT_DIR$/target/classes/com/university/diploma/service/ShopService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/university/diploma/service/SportService.class" afterPath="$PROJECT_DIR$/target/classes/com/university/diploma/service/SportService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/university/diploma/service/UserService.class" afterPath="$PROJECT_DIR$/target/classes/com/university/diploma/service/UserService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/university/diploma/service/UserSettingsService.class" afterPath="$PROJECT_DIR$/target/classes/com/university/diploma/service/UserSettingsService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/university/diploma/service/WellService.class" afterPath="$PROJECT_DIR$/target/classes/com/university/diploma/service/WellService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/university/diploma/service/impl/AutoServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/university/diploma/service/impl/AutoServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/university/diploma/service/impl/EducationServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/university/diploma/service/impl/EducationServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/university/diploma/service/impl/MapServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/university/diploma/service/impl/MapServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/university/diploma/service/impl/MedicineServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/university/diploma/service/impl/MedicineServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/university/diploma/service/impl/RecreationServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/university/diploma/service/impl/RecreationServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/university/diploma/service/impl/ShopServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/university/diploma/service/impl/ShopServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/university/diploma/service/impl/SportServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/university/diploma/service/impl/SportServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/university/diploma/service/impl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/university/diploma/service/impl/UserServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/university/diploma/service/impl/UserSettingsServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/university/diploma/service/impl/UserSettingsServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/university/diploma/service/impl/WellServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/university/diploma/service/impl/WellServiceImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam.war" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/classes/com/university/diploma/config/AppInitializer.class" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/classes/com/university/diploma/config/AppInitializer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/classes/com/university/diploma/config/DataConfig.class" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/classes/com/university/diploma/config/DataConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/classes/com/university/diploma/config/WebAppConfig.class" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/classes/com/university/diploma/config/WebAppConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/classes/com/university/diploma/controller/HelloController.class" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/classes/com/university/diploma/controller/HelloController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/classes/com/university/diploma/model/Auto.class" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/classes/com/university/diploma/model/Auto.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/classes/com/university/diploma/model/Education.class" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/classes/com/university/diploma/model/Education.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/classes/com/university/diploma/model/Medicine.class" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/classes/com/university/diploma/model/Medicine.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/classes/com/university/diploma/model/Recreation.class" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/classes/com/university/diploma/model/Recreation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/classes/com/university/diploma/model/Shop.class" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/classes/com/university/diploma/model/Shop.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/classes/com/university/diploma/model/Sport.class" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/classes/com/university/diploma/model/Sport.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/classes/com/university/diploma/model/Well.class" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/classes/com/university/diploma/model/Well.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/classes/com/university/diploma/repository/AutoRepository.class" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/classes/com/university/diploma/repository/AutoRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/classes/com/university/diploma/repository/EducationRepository.class" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/classes/com/university/diploma/repository/EducationRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/classes/com/university/diploma/repository/MedicineRepository.class" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/classes/com/university/diploma/repository/MedicineRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/classes/com/university/diploma/repository/RecreationRepository.class" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/classes/com/university/diploma/repository/RecreationRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/classes/com/university/diploma/repository/ShopRepository.class" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/classes/com/university/diploma/repository/ShopRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/classes/com/university/diploma/repository/SportRepository.class" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/classes/com/university/diploma/repository/SportRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/classes/com/university/diploma/repository/WellRepository.class" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/classes/com/university/diploma/repository/WellRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/classes/com/university/diploma/service/AutoService.class" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/classes/com/university/diploma/service/AutoService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/classes/com/university/diploma/service/impl/AutoServiceImpl.class" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/classes/com/university/diploma/service/impl/AutoServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/lib/antlr-2.7.7.jar" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/lib/antlr-2.7.7.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/lib/aopalliance-1.0.jar" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/lib/aopalliance-1.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/lib/aspectjrt-1.7.2.jar" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/lib/aspectjrt-1.7.2.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/lib/commons-logging-1.1.3.jar" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/lib/commons-logging-1.1.3.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/lib/dom4j-1.6.1.jar" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/lib/dom4j-1.6.1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/lib/hibernate-commons-annotations-4.0.2.Final.jar" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/lib/hibernate-commons-annotations-4.0.2.Final.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/lib/hibernate-core-4.2.5.Final.jar" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/lib/hibernate-core-4.2.5.Final.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/lib/hibernate-entitymanager-4.2.5.Final.jar" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/lib/hibernate-entitymanager-4.2.5.Final.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/lib/javassist-3.15.0-GA.jar" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/lib/javassist-3.15.0-GA.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/lib/jboss-logging-3.1.0.GA.jar" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/lib/jboss-logging-3.1.0.GA.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/lib/jboss-transaction-api_1.1_spec-1.0.1.Final.jar" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/lib/jboss-transaction-api_1.1_spec-1.0.1.Final.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/lib/jcl-over-slf4j-1.7.1.jar" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/lib/jcl-over-slf4j-1.7.1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/lib/jstl-1.2.jar" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/lib/jstl-1.2.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/lib/postgresql-9.1-901-1.jdbc4.jar" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/lib/postgresql-9.1-901-1.jdbc4.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/lib/slf4j-api-1.7.1.jar" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/lib/slf4j-api-1.7.1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/lib/spring-aop-4.0.3.RELEASE.jar" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/lib/spring-aop-4.0.3.RELEASE.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/lib/spring-beans-4.0.3.RELEASE.jar" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/lib/spring-beans-4.0.3.RELEASE.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/lib/spring-context-4.0.3.RELEASE.jar" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/lib/spring-context-4.0.3.RELEASE.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/lib/spring-core-4.0.3.RELEASE.jar" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/lib/spring-core-4.0.3.RELEASE.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/lib/spring-data-commons-1.5.2.RELEASE.jar" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/lib/spring-data-commons-1.5.2.RELEASE.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/lib/spring-data-jpa-1.3.4.RELEASE.jar" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/lib/spring-data-jpa-1.3.4.RELEASE.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/lib/spring-expression-4.0.3.RELEASE.jar" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/lib/spring-expression-4.0.3.RELEASE.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/lib/spring-jdbc-3.1.4.RELEASE.jar" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/lib/spring-jdbc-3.1.4.RELEASE.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/lib/spring-orm-3.1.4.RELEASE.jar" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/lib/spring-orm-3.1.4.RELEASE.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/lib/spring-tx-3.1.4.RELEASE.jar" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/lib/spring-tx-3.1.4.RELEASE.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/lib/spring-web-4.0.3.RELEASE.jar" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/lib/spring-web-4.0.3.RELEASE.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/lib/spring-webmvc-4.0.3.RELEASE.jar" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/lib/spring-webmvc-4.0.3.RELEASE.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university.war" afterPath="$PROJECT_DIR$/target/university.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/config/AppInitializer.class" afterPath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/config/AppInitializer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/config/DataConfig.class" afterPath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/config/DataConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/config/SecurityConfig.class" afterPath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/config/SecurityConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/config/WebAppConfig.class" afterPath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/config/WebAppConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/controller/AutoController.class" afterPath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/controller/AutoController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/controller/EducationController.class" afterPath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/controller/EducationController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/controller/FAQController.class" afterPath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/controller/FAQController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/controller/HomeController.class" afterPath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/controller/HomeController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/controller/LoginController.class" afterPath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/controller/LoginController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/controller/MapController.class" afterPath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/controller/MapController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/controller/MedicineController.class" afterPath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/controller/MedicineController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/controller/UserController.class" afterPath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/controller/UserController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/model/Auto.class" afterPath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/model/Auto.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/model/Base.class" afterPath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/model/Base.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/model/Coordinates.class" afterPath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/model/Coordinates.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/model/Education.class" afterPath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/model/Education.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/model/Medicine.class" afterPath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/model/Medicine.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/model/Recreation.class" afterPath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/model/Recreation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/model/Shop.class" afterPath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/model/Shop.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/model/Sport.class" afterPath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/model/Sport.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/model/User.class" afterPath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/model/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/model/UserSettings.class" afterPath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/model/UserSettings.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/model/Well.class" afterPath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/model/Well.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/model/enums/UserRoleEnum.class" afterPath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/model/enums/UserRoleEnum.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/repository/AutoRepository.class" afterPath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/repository/AutoRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/repository/EducationRepository.class" afterPath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/repository/EducationRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/repository/MapRepository.class" afterPath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/repository/MapRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/repository/MedicineRepository.class" afterPath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/repository/MedicineRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/repository/RecreationRepository.class" afterPath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/repository/RecreationRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/repository/ShopRepository.class" afterPath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/repository/ShopRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/repository/SportRepository.class" afterPath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/repository/SportRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/repository/UserRepository.class" afterPath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/repository/UserRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/repository/UserSettingsRepository.class" afterPath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/repository/UserSettingsRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/repository/WellRepository.class" afterPath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/repository/WellRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/service/AutoService.class" afterPath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/service/AutoService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/service/EducationService.class" afterPath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/service/EducationService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/service/MapService.class" afterPath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/service/MapService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/service/MedicineService.class" afterPath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/service/MedicineService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/service/RecreationService.class" afterPath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/service/RecreationService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/service/ShopService.class" afterPath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/service/ShopService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/service/SportService.class" afterPath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/service/SportService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/service/UserService.class" afterPath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/service/UserService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/service/UserSettingsService.class" afterPath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/service/UserSettingsService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/service/WellService.class" afterPath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/service/WellService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/service/impl/AutoServiceImpl.class" afterPath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/service/impl/AutoServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/service/impl/EducationServiceImpl.class" afterPath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/service/impl/EducationServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/service/impl/MapServiceImpl.class" afterPath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/service/impl/MapServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/service/impl/MedicineServiceImpl.class" afterPath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/service/impl/MedicineServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/service/impl/RecreationServiceImpl.class" afterPath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/service/impl/RecreationServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/service/impl/ShopServiceImpl.class" afterPath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/service/impl/ShopServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/service/impl/SportServiceImpl.class" afterPath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/service/impl/SportServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/service/impl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/service/impl/UserServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/service/impl/UserSettingsServiceImpl.class" afterPath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/service/impl/UserSettingsServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/service/impl/WellServiceImpl.class" afterPath="$PROJECT_DIR$/target/university/WEB-INF/classes/com/university/diploma/service/impl/WellServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/image/auto/autoParking.png" afterPath="$PROJECT_DIR$/target/university/image/auto/autoParking.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/image/auto/carService.png" afterPath="$PROJECT_DIR$/target/university/image/auto/carService.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/image/auto/fuel.jpg" afterPath="$PROJECT_DIR$/target/university/image/auto/fuel.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/image/bg.gif" afterPath="$PROJECT_DIR$/target/university/image/bg.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/image/doh.png" afterPath="$PROJECT_DIR$/target/university/image/doh.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/image/education/art-school.png" afterPath="$PROJECT_DIR$/target/university/image/education/art-school.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/image/education/boarding-school.jpg" afterPath="$PROJECT_DIR$/target/university/image/education/boarding-school.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/image/education/high-school.png" afterPath="$PROJECT_DIR$/target/university/image/education/high-school.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/image/education/library.png" afterPath="$PROJECT_DIR$/target/university/image/education/library.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/image/education/play-school.png" afterPath="$PROJECT_DIR$/target/university/image/education/play-school.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/image/education/ptu.jpg" afterPath="$PROJECT_DIR$/target/university/image/education/ptu.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/image/education/school.jpg" afterPath="$PROJECT_DIR$/target/university/image/education/school.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/image/education/sport-school.png" afterPath="$PROJECT_DIR$/target/university/image/education/sport-school.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/image/icons-social_media.png" afterPath="$PROJECT_DIR$/target/university/image/icons-social_media.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/image/main-logo.png" afterPath="$PROJECT_DIR$/target/university/image/main-logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/image/map.ico" afterPath="$PROJECT_DIR$/target/university/image/map.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/image/univ.jpg" afterPath="$PROJECT_DIR$/target/university/image/univ.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/image/univ1.jpg" afterPath="$PROJECT_DIR$/target/university/image/univ1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/image/up-arrow.png" afterPath="$PROJECT_DIR$/target/university/image/up-arrow.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/University_war.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/University_war.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/University_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/University_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/University.iml" afterPath="$PROJECT_DIR$/University.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/university/diploma/config/AppInitializer.java" afterPath="$PROJECT_DIR$/src/main/java/com/university/diploma/config/AppInitializer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/university/diploma/config/DataConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/university/diploma/config/DataConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/university/diploma/config/SecurityConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/university/diploma/config/SecurityConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/university/diploma/config/WebAppConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/university/diploma/config/WebAppConfig.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/university/diploma/controller/AutoController.java" afterPath="$PROJECT_DIR$/src/main/java/com/university/diploma/controller/AutoController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/university/diploma/controller/EducationController.java" afterPath="$PROJECT_DIR$/src/main/java/com/university/diploma/controller/EducationController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/university/diploma/controller/FAQController.java" afterPath="$PROJECT_DIR$/src/main/java/com/university/diploma/controller/FAQController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/university/diploma/controller/HomeController.java" afterPath="$PROJECT_DIR$/src/main/java/com/university/diploma/controller/HomeController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/university/diploma/controller/LoginController.java" afterPath="$PROJECT_DIR$/src/main/java/com/university/diploma/controller/LoginController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/university/diploma/controller/MapController.java" afterPath="$PROJECT_DIR$/src/main/java/com/university/diploma/controller/MapController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/university/diploma/controller/MedicineController.java" afterPath="$PROJECT_DIR$/src/main/java/com/university/diploma/controller/MedicineController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/university/diploma/controller/RegistrationController.java" afterPath="$PROJECT_DIR$/src/main/java/com/university/diploma/controller/RegistrationController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/university/diploma/controller/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/com/university/diploma/controller/UserController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/university/diploma/model/Auto.java" afterPath="$PROJECT_DIR$/src/main/java/com/university/diploma/model/Auto.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/university/diploma/model/Base.java" afterPath="$PROJECT_DIR$/src/main/java/com/university/diploma/model/Base.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/university/diploma/model/Coordinates.java" afterPath="$PROJECT_DIR$/src/main/java/com/university/diploma/model/Coordinates.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/university/diploma/model/Education.java" afterPath="$PROJECT_DIR$/src/main/java/com/university/diploma/model/Education.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/university/diploma/model/Medicine.java" afterPath="$PROJECT_DIR$/src/main/java/com/university/diploma/model/Medicine.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/university/diploma/model/Recreation.java" afterPath="$PROJECT_DIR$/src/main/java/com/university/diploma/model/Recreation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/university/diploma/model/Shop.java" afterPath="$PROJECT_DIR$/src/main/java/com/university/diploma/model/Shop.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/university/diploma/model/Sport.java" afterPath="$PROJECT_DIR$/src/main/java/com/university/diploma/model/Sport.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/university/diploma/model/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/university/diploma/model/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/university/diploma/model/UserSettings.java" afterPath="$PROJECT_DIR$/src/main/java/com/university/diploma/model/UserSettings.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/university/diploma/model/Well.java" afterPath="$PROJECT_DIR$/src/main/java/com/university/diploma/model/Well.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/university/diploma/model/enums/UserRoleEnum.java" afterPath="$PROJECT_DIR$/src/main/java/com/university/diploma/model/enums/UserRoleEnum.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/university/diploma/repository/AutoRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/university/diploma/repository/AutoRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/university/diploma/repository/EducationRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/university/diploma/repository/EducationRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/university/diploma/repository/MapRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/university/diploma/repository/MapRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/university/diploma/repository/MedicineRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/university/diploma/repository/MedicineRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/university/diploma/repository/RecreationRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/university/diploma/repository/RecreationRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/university/diploma/repository/ShopRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/university/diploma/repository/ShopRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/university/diploma/repository/SportRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/university/diploma/repository/SportRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/university/diploma/repository/UserRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/university/diploma/repository/UserRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/university/diploma/repository/UserSettingsRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/university/diploma/repository/UserSettingsRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/university/diploma/repository/WellRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/university/diploma/repository/WellRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/university/diploma/service/AutoService.java" afterPath="$PROJECT_DIR$/src/main/java/com/university/diploma/service/AutoService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/university/diploma/service/EducationService.java" afterPath="$PROJECT_DIR$/src/main/java/com/university/diploma/service/EducationService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/university/diploma/service/MapService.java" afterPath="$PROJECT_DIR$/src/main/java/com/university/diploma/service/MapService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/university/diploma/service/MedicineService.java" afterPath="$PROJECT_DIR$/src/main/java/com/university/diploma/service/MedicineService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/university/diploma/service/RecreationService.java" afterPath="$PROJECT_DIR$/src/main/java/com/university/diploma/service/RecreationService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/university/diploma/service/ShopService.java" afterPath="$PROJECT_DIR$/src/main/java/com/university/diploma/service/ShopService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/university/diploma/service/SportService.java" afterPath="$PROJECT_DIR$/src/main/java/com/university/diploma/service/SportService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/university/diploma/service/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/com/university/diploma/service/UserService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/university/diploma/service/UserSettingsService.java" afterPath="$PROJECT_DIR$/src/main/java/com/university/diploma/service/UserSettingsService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/university/diploma/service/WellService.java" afterPath="$PROJECT_DIR$/src/main/java/com/university/diploma/service/WellService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/university/diploma/service/impl/AutoServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/university/diploma/service/impl/AutoServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/university/diploma/service/impl/EducationServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/university/diploma/service/impl/EducationServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/university/diploma/service/impl/MapServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/university/diploma/service/impl/MapServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/university/diploma/service/impl/MedicineServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/university/diploma/service/impl/MedicineServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/university/diploma/service/impl/RecreationServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/university/diploma/service/impl/RecreationServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/university/diploma/service/impl/ShopServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/university/diploma/service/impl/ShopServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/university/diploma/service/impl/SportServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/university/diploma/service/impl/SportServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/university/diploma/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/university/diploma/service/impl/UserServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/university/diploma/service/impl/UserSettingsServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/university/diploma/service/impl/UserSettingsServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/university/diploma/service/impl/WellServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/university/diploma/service/impl/WellServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/app.properties" afterPath="$PROJECT_DIR$/src/main/resources/app.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/css/faq.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/faq.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/css/home.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/home.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/css/map.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/map.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/css/signin.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/signin.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/css/user.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/user.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/image/circle2.svg" afterPath="$PROJECT_DIR$/src/main/webapp/image/circle2.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/faq.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/faq.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/home.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/home.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/jquery.easing.1.3.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.easing.1.3.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/map.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/map.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/user.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/user.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/view/403.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/view/403.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/view/admin.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/view/admin.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/view/auto.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/view/auto.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/view/comparison.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/view/comparison.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/view/faq.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/view/faq.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/view/home.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/view/home.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/view/login.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/view/login.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/view/map.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/view/map.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/view/statistic.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/view/statistic.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/view/user.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/view/user.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/app.properties" afterPath="$PROJECT_DIR$/target/classes/app.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/META-INF/MANIFEST.MF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/classes/app.properties" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/classes/app.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/pages/faq.html" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/pages/faq.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/pages/hello.jsp" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/pages/hello.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/pages/home.jsp" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/WEB-INF/pages/home.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/css/faq.css" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/css/faq.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/css/faq.html" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/css/faq.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/css/home.css" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/css/home.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/css/map.css" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/css/map.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/css/user.css" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/css/user.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/js/faq.js" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/js/faq.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/js/home.js" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/js/home.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/js/jquery.tabslideout.v1.2.js" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/js/jquery.tabslideout.v1.2.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/js/map.js" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/js/map.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/js/user.js" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/js/user.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/view/403.jsp" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/view/403.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/view/auto.jsp" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/view/auto.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/view/faq.jsp" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/view/faq.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/view/home.jsp" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/view/home.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/view/index.jsp" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/view/index.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/view/map.jsp" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/view/map.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/view/user.jsp" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/view/user.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/devcolibri-dataexam/web.xml" afterPath="$PROJECT_DIR$/target/devcolibri-dataexam/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/target/university/META-INF/MANIFEST.MF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/WEB-INF/classes/app.properties" afterPath="$PROJECT_DIR$/target/university/WEB-INF/classes/app.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/target/university/css/bootstrap-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/target/university/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/css/faq.css" afterPath="$PROJECT_DIR$/target/university/css/faq.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/css/home.css" afterPath="$PROJECT_DIR$/target/university/css/home.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/css/map.css" afterPath="$PROJECT_DIR$/target/university/css/map.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/css/signin.css" afterPath="$PROJECT_DIR$/target/university/css/signin.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/css/user.css" afterPath="$PROJECT_DIR$/target/university/css/user.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/image/circle2.svg" afterPath="$PROJECT_DIR$/target/university/image/circle2.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/target/university/js/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/js/faq.js" afterPath="$PROJECT_DIR$/target/university/js/faq.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/js/home.js" afterPath="$PROJECT_DIR$/target/university/js/home.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/js/jquery.easing.1.3.js" afterPath="$PROJECT_DIR$/target/university/js/jquery.easing.1.3.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/js/map.js" afterPath="$PROJECT_DIR$/target/university/js/map.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/js/user.js" afterPath="$PROJECT_DIR$/target/university/js/user.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/view/403.jsp" afterPath="$PROJECT_DIR$/target/university/view/403.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/view/admin.jsp" afterPath="$PROJECT_DIR$/target/university/view/admin.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/view/auto.jsp" afterPath="$PROJECT_DIR$/target/university/view/auto.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/view/comparison.jsp" afterPath="$PROJECT_DIR$/target/university/view/comparison.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/view/faq.jsp" afterPath="$PROJECT_DIR$/target/university/view/faq.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/view/home.jsp" afterPath="$PROJECT_DIR$/target/university/view/home.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/view/login.jsp" afterPath="$PROJECT_DIR$/target/university/view/login.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/view/map.jsp" afterPath="$PROJECT_DIR$/target/university/view/map.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/view/statistic.jsp" afterPath="$PROJECT_DIR$/target/university/view/statistic.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/view/user.jsp" afterPath="$PROJECT_DIR$/target/university/view/user.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/university/web.xml" afterPath="$PROJECT_DIR$/target/university/web.xml" />
     </list>
     <ignored path="com.devcolibri.dataexam.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,6 +424,64 @@
         <option name="myItemId" />
         <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
       </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="PostgreSQL - postgres@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="postgres" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="public" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="PostgreSQL - postgres@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="postgres" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="public" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$GroupNode" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="PostgreSQL - postgres@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="postgres" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="PostgreSQL - postgres@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
     </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
@@ -71,12 +490,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="map.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/js/map.js">
+      <file leaf-file-name="WebAppConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/config/WebAppConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3119584">
-              <caret line="222" column="42" selection-start-line="222" selection-start-column="42" selection-end-line="222" selection-end-column="42" />
+            <state relative-caret-position="150">
+              <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SecurityConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/config/SecurityConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2055">
+              <caret line="137" column="28" selection-start-line="137" selection-start-column="28" selection-end-line="137" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataConfig.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/config/DataConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="413">
+              <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -90,8 +541,8 @@
         <option value="CSS File" />
         <option value="Enum" />
         <option value="Jsp File" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -106,32 +557,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/university/diploma/service/MapService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/university/diploma/service/impl/MapServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/university/diploma/repository/MapRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/university/diploma/config/SecurityWebApplicationInitializer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/university/diploma/config/WebAppConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/university/diploma/config/MyCustomLoginSuccessHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/view/login.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/university/diploma/config/CustomAuthenticationSuccessHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/university/diploma/config/AppInitializer.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/js/home.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/css/user.css" />
-        <option value="$PROJECT_DIR$/src/main/java/com/university/diploma/model/Recreation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/university/diploma/model/Shop.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/university/diploma/model/Sport.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/university/diploma/model/Well.java" />
-        <option value="dbtable:/aa3b5477/7713de5e-27aa-423a-a29f-44a04d186fa1/diplom.public.user_settings" />
-        <option value="$PROJECT_DIR$/src/main/java/com/university/diploma/model/UserSet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/university/diploma/service/impl/UserRepositoryServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/university/diploma/repository/UserSettingsRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/university/diploma/repository/UserRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/university/diploma/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/university/diploma/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/university/diploma/service/UserSettingsService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/university/diploma/service/impl/UserSettingsServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/view/user.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/view/403.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/university/diploma/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/university/diploma/config/SecurityConfig.java" />
@@ -139,13 +564,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/university/diploma/model/Pollution.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/university/diploma/model/UserSettings.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/user.js" />
-        <option value="$PROJECT_DIR$/src/main/java/com/university/diploma/model/User.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/university/diploma/service/impl/FaceBookAuthorization.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/view/registration.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/university/diploma/controller/RegistrationController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/university/diploma/model/PolutionPlace.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/7713de5e-27aa-423a-a29f-44a04d186fa1/console.sql" />
         <option value="$PROJECT_DIR$/src/main/java/com/university/diploma/model/PollutionPlace.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/university/diploma/repository/PollutionRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/university/diploma/service/PollutionPlaceService.java" />
@@ -157,6 +577,37 @@
         <option value="$PROJECT_DIR$/src/main/java/com/university/diploma/controller/FAQController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/university/diploma/controller/AutoController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/map.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/university/diploma/repository/RecreationRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/university/diploma/controller/MedicineController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/university/diploma/repository/MapRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/home.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/view/statistic.jsp" />
+        <option value="$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/1.3.4.RELEASE/spring-data-jpa-1.3.4.RELEASE.jar!/org/springframework/data/jpa/repository/JpaRepository.class" />
+        <option value="$PROJECT_DIR$/src/main/java/com/university/diploma/repository/MedicineRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/university/diploma/service/impl/FaceBookAuthorization.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/university/diploma/service/impl/GoogleAuthorizationService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/university/diploma/service/impl/GoogleAuthorizationServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/university/diploma/service/impl/Google2Api.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/university/diploma/controller/RegistrationController.java" />
+        <option value="dbtable:/a0653b42/7713de5e-27aa-423a-a29f-44a04d186fa1/diplom.public.user_roles" />
+        <option value="$PROJECT_DIR$/src/main/resources/app.properties" />
+        <option value="dbtable:/a0653b42/7713de5e-27aa-423a-a29f-44a04d186fa1/diplom.public.usersettings" />
+        <option value="dbtable:/a0653b42/7713de5e-27aa-423a-a29f-44a04d186fa1/diplom.public.users" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/7713de5e-27aa-423a-a29f-44a04d186fa1/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/university/diploma/model/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/university/diploma/repository/UserRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/university/diploma/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/university/diploma/service/impl/UserServiceImpl.java" />
+        <option value="dbtable:/a0653b42/7713de5e-27aa-423a-a29f-44a04d186fa1/postgres.public.users" />
+        <option value="$PROJECT_DIR$/src/main/java/com/university/diploma/service/mail/Sender.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/university/diploma/service/mail/SenderService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/university/diploma/service/mail/SenderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/university/diploma/config/DataConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/university/diploma/service/impl/MapServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/university/diploma/config/AppInitializer.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/university/diploma/controller/GoogleAuthController.java" />
       </list>
     </option>
   </component>
@@ -185,18 +636,7 @@
     </option>
   </component>
   <component name="MavenProjectNavigator">
-    <treeState>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="com.university" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-      </PATH>
-    </treeState>
+    <treeState />
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="27" />
@@ -228,6 +668,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -260,26 +702,8 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="com.devcolibri.dataexam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="University" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -298,14 +722,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -327,11 +743,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -350,6 +762,14 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="diploma" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -379,169 +799,17 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.devcolibri.dataexam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="University" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="diploma" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="impl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.devcolibri.dataexam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="University" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="diploma" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="repository" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.devcolibri.dataexam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="University" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="diploma" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.devcolibri.dataexam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="University" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="diploma" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.devcolibri.dataexam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="University" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="diploma" />
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lab11" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/RecrutingSystem" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -549,6 +817,7 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="database.main" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;null&#9;null&#10;com.devcolivri&#9;null&#9;null&#10;Applicatio&#9;PSI&#9;JAVA://org.springframework.context.ApplicationContext&#10;MapRe&#9;FILE&#9;file:///home/dima/IdeaProjects/University/src/main/java/com/university/diploma/repository/MapRepository.java" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -571,51 +840,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Unnamed">
-    <configuration default="false" name="GTest.getAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="University" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GTest" />
-      <option name="METHOD_NAME" value="getAll" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="GTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="University" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="map.jsp" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/view/map.jsp">
-      <method />
-    </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
       <deployment />
       <server-settings />
@@ -635,31 +859,21 @@
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
       <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
-      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
-      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
-      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
-      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
-      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
-      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
-      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
-      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
       <method />
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -669,27 +883,15 @@
       <option name="METHOD_NAME" value="" />
       <option name="CLASS_NAME" value="" />
       <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
       <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
-      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
-      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
-      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
-      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
-      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
-      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
-      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
-      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -859,27 +1061,102 @@
       <method />
     </configuration>
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
-      <module name="" />
       <setting name="vmparams" value="" />
       <setting name="cmdLine" value="run-app" />
-      <setting name="depsClasspath" value="false" />
       <setting name="passParentEnv" value="true" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <setting name="launchBrowser" value="false" />
+      <setting name="depsClasspath" value="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
-    <configuration default="true" type="JBossConfiguration" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
-      <deployment />
+    <configuration default="true" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 10.0.10.Final" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/university/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="University:war">
+          <settings />
+        </artifact>
+      </deployment>
       <server-settings>
-        <option name="SERVER" value="" />
+        <option name="SERVER" />
         <option name="BINDING_SET_NAME" value="" />
         <option name="DOMAIN" value="false" />
-        <option name="SERVER_GROUP" value="" />
+        <option name="SERVER_GROUP" />
         <option name="USERNAME" value="" />
         <option name="PASSWORD" value="" />
       </server-settings>
       <predefined_log_file id="JBoss" enabled="true" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="33896" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="University:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="JBossConfiguration" factoryName="Remote" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="LOCAL" value="false" />
+      <deployment />
+      <server-settings>
+        <data>
+          <option name="serverGroup" value="" />
+          <option name="transportHostId" value="" />
+          <server-group />
+          <host-id />
+        </data>
+      </server-settings>
+      <predefined_log_file id="JBoss" enabled="true" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="39852" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -961,6 +1238,18 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -1031,20 +1320,8 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="executeSpecs" factoryName="Gauge Execution">
-      <setting name="environment" value="" />
-      <setting name="specsToExecute" value="" />
-      <setting name="tags" value="" />
-      <setting name="parallelNodes" value="" />
-      <setting name="execInParallel" value="false" />
-      <setting name="programParameters" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="moduleName" value="" />
-      <envMap />
-      <setting name="rowsRange" value="" />
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
       <tasks />
@@ -1055,6 +1332,7 @@
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
       <command value="run-script" />
       <scripts />
+      <node-interpreter value="project" />
       <envs />
       <method />
     </configuration>
@@ -1064,10 +1342,8 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <configuration default="false" name="Unnamed" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 10.0.5.Final" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="HOT_SWAP_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATING_POLICY" value="hot-swap-classes" />
+    <configuration default="false" name="Unnamed" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 10.0.10.Final" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="University:war">
           <settings />
@@ -1077,14 +1353,87 @@
         <option name="SERVER" />
         <option name="BINDING_SET_NAME" value="" />
         <option name="DOMAIN" value="false" />
-        <option name="SERVER_GROUP" value="main-server-group" />
-        <option name="USERNAME" value="" />
-        <option name="PASSWORD" value="" />
+        <option name="SERVER_GROUP" />
+        <option name="USERNAME" value="admin" />
+        <option name="PASSWORD" value="admin" />
       </server-settings>
       <predefined_log_file id="JBoss" enabled="true" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="45129" />
+        <option name="DEBUG_PORT" value="33896" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="University:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="false" name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.68" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="University:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_com_devcolibri_dataexam_2" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="33837" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -1137,94 +1486,14 @@
         </option>
       </method>
     </configuration>
-    <configuration default="false" name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.301" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATING_POLICY" value="update-resources" />
-      <deployment>
-        <artifact name="University:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_com_devcolibri_dataexam_3" />
-      </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="45501" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method>
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="University:war exploded" />
-        </option>
-      </method>
-    </configuration>
-    <list size="5">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="JBoss Server.Unnamed" />
       <item index="1" class="java.lang.String" itemvalue="Tomcat Server.Unnamed" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.GTest.getAll" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.GTest" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.map.jsp" />
     </list>
-    <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.map.jsp" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.GTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.GTest.getAll" />
-      </list>
-    </recent_temporary>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -1233,6 +1502,7 @@
       <changelist id="0327366b-7a73-4226-bdeb-546f2106a17c" name="Default" comment="" />
       <created>1452382529736</created>
       <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
       <updated>1452382529736</updated>
       <workItem from="1452382538095" duration="3184000" />
       <workItem from="1452385847834" duration="213000" />
@@ -1326,7 +1596,29 @@
       <workItem from="1458751132095" duration="3278000" />
       <workItem from="1458754519595" duration="1089000" />
       <workItem from="1458762583617" duration="14000" />
-      <workItem from="1458764029927" duration="1014000" />
+      <workItem from="1458764029927" duration="4012000" />
+      <workItem from="1458810638199" duration="763000" />
+      <workItem from="1458940340868" duration="2584000" />
+      <workItem from="1459450178946" duration="1277000" />
+      <workItem from="1459608487493" duration="1548000" />
+      <workItem from="1459610721385" duration="486000" />
+      <workItem from="1459720053299" duration="63000" />
+      <workItem from="1459778278648" duration="295000" />
+      <workItem from="1459778867833" duration="310000" />
+      <workItem from="1459888455479" duration="1330000" />
+      <workItem from="1459935547079" duration="2737000" />
+      <workItem from="1459953442159" duration="4175000" />
+      <workItem from="1460007160065" duration="180000" />
+      <workItem from="1460033548038" duration="17444000" />
+      <workItem from="1460108535255" duration="4000" />
+      <workItem from="1460109704874" duration="16000" />
+      <workItem from="1460110091605" duration="18868000" />
+      <workItem from="1460183202888" duration="1559000" />
+      <workItem from="1460189380664" duration="2949000" />
+      <workItem from="1460239228340" duration="546000" />
+      <workItem from="1460242385662" duration="6196000" />
+      <workItem from="1460407616548" duration="3648000" />
+      <workItem from="1460440325506" duration="5445000" />
     </task>
     <servers />
   </component>
@@ -1351,7 +1643,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="530446000" />
+    <option name="totallyTimeSpent" value="605867000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1368,33 +1660,35 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32676518" sideWeight="0.4969651" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3262295" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33497536" sideWeight="0.50455236" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852808" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32786885" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852808" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32676518" sideWeight="0.4969651" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34262297" sideWeight="0.4969651" order="13" side_tool="false" content_ui="tabs" x="24" y="258" width="1318" height="245" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32786885" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3262295" sideWeight="0.4969651" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25493172" sideWeight="0.8095238" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25341427" sideWeight="0.26108375" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24810319" sideWeight="0.3265306" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25493172" sideWeight="0.7389163" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25493172" sideWeight="0.8095238" order="1" side_tool="false" content_ui="tabs" x="552" y="68" width="262" height="639" />
+      <window_info id="Database" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23823975" sideWeight="0.8095238" order="1" side_tool="false" content_ui="tabs" x="552" y="68" width="262" height="639" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962063" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962063" sideWeight="0.50574714" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24810319" sideWeight="0.67346936" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3908046" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3908046" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32676518" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="100" y="127" width="1166" height="541" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" x="100" y="127" width="1166" height="541" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43021345" sideWeight="0.4969651" order="14" side_tool="false" content_ui="tabs" x="24" y="258" width="1318" height="245" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36945814" sideWeight="0.49544764" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36885247" sideWeight="0.49544764" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32676518" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1420,342 +1714,33 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="dbDummy://dbtable:/aa3b5477/7713de5e-27aa-423a-a29f-44a04d186fa1/diplom.public.user_roles">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/service/UserService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/controller/AutoController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4643963">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21052632">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/repository/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36395147">
-          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/repository/UserSettingsRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3119584">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/service/UserSettingsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23396881">
-          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/service/impl/UserSettingsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33275563">
-          <caret line="128" column="0" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/aa3b5477/7713de5e-27aa-423a-a29f-44a04d186fa1/diplom.public.auto">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-          <column-attributes>
-            <column name="ctid" enabled="false" />
-          </column-attributes>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.27486438">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/admin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/403.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4013378">
-          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/user.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48824593">
-          <caret line="18" column="58" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/config/DataConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6377816">
-          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/config/AppInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10398614">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/config/WebAppConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="59" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/config/SecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.628483">
-          <caret line="49" column="34" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/model/UserSettings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.5996535">
-          <caret line="103" column="24" selection-start-line="103" selection-start-column="24" selection-end-line="103" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/controller/MedicineController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12998267">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.2972136">
-          <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/controller/HomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32507738">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/aa3b5477/7713de5e-27aa-423a-a29f-44a04d186fa1/diplom.public.users">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.0.3.RELEASE/spring-web-4.0.3.RELEASE.jar!/org/springframework/web/bind/annotation/ModelAttribute.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41436464">
-          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.7619047">
-          <caret line="57" column="18" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/aa3b5477/7713de5e-27aa-423a-a29f-44a04d186fa1/diplom.public.usersettings">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7866185">
-          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/controller/RegistrationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41594455">
-          <caret line="38" column="69" selection-start-line="38" selection-start-column="69" selection-end-line="38" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/registration.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7016275">
-          <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/model/Recreation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12998267">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7713de5e-27aa-423a-a29f-44a04d186fa1/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7204969">
-          <caret line="144" column="35" selection-start-line="144" selection-start-column="35" selection-end-line="144" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/repository/MedicineRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23396881">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/repository/PollutionRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28596187">
-          <caret line="11" column="84" selection-start-line="11" selection-start-column="84" selection-end-line="11" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/service/MedicineService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18197574">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/service/RecreationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18197574">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/service/MapService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18197574">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/service/impl/FaceBookAuthorization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1559792">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="203">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/service/impl/PollutionServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36395147">
-          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        <state relative-caret-position="165">
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/controller/LoginController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/service/impl/FaceBookAuthorization.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.0.3.RELEASE/spring-web-4.0.3.RELEASE.jar!/org/springframework/web/context/request/RequestAttributes.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20797227">
-          <caret line="16" column="73" selection-start-line="16" selection-start-column="73" selection-end-line="16" selection-end-column="73" />
+        <state relative-caret-position="90">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4800693">
-          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/controller/EducationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20797227">
-          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/service/PollutionPlaceService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23396881">
-          <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/map.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.108499095">
-          <caret line="26" column="113" selection-start-line="26" selection-start-column="113" selection-end-line="26" selection-end-column="113" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/controller/MapController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.96187174">
-          <caret line="54" column="17" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/model/PollutionPlace.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32409012">
-          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/aa3b5477/7713de5e-27aa-423a-a29f-44a04d186fa1/diplom.public.recreation">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/service/impl/GoogleAuthorizationServiceImpl.java" />
+    <entry file="dbDummy://dbtable:/a0653b42/7713de5e-27aa-423a-a29f-44a04d186fa1/diplom.public.education">
       <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
@@ -1767,11 +1752,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbtable:/aa3b5477/7713de5e-27aa-423a-a29f-44a04d186fa1/diplom.public.pollution_places">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/user.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1408">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-675">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/codehaus/jackson/jackson-mapper-asl/1.9.10/jackson-mapper-asl-1.9.10.jar!/org/codehaus/jackson/map/util/JSONPObject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="67" column="26" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/controller/RegistrationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-79">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/service/impl/UserSettingsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/repository/UserSettingsRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/a0653b42/7713de5e-27aa-423a-a29f-44a04d186fa1/diplom.public.usersettings">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="2" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/a0653b42/7713de5e-27aa-423a-a29f-44a04d186fa1/diplom.public.user_roles">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
         </state>
       </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
@@ -1780,43 +1818,295 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/repository/AutoRepository.java">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7713de5e-27aa-423a-a29f-44a04d186fa1/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23396881">
-          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+        <state relative-caret-position="285">
+          <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="74" column="5" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/model/Medicine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-77">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/repository/MedicineRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/repository/PollutionRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/a0653b42/7713de5e-27aa-423a-a29f-44a04d186fa1/diplom.public.users">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/repository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/a0653b42/7713de5e-27aa-423a-a29f-44a04d186fa1/postgres.public.users">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/service/mail/SenderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="25" column="52" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="57" column="40" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/service/impl/AutoServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/service/impl/Google2Api.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3119584">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        <state relative-caret-position="150">
+          <caret line="21" column="99" selection-start-line="21" selection-start-column="99" selection-end-line="21" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/service/mail/Sender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/service/mail/SenderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/service/impl/MapServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.0.3.RELEASE/spring-context-4.0.3.RELEASE.jar!/org/springframework/context/ApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/repository/WellRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/repository/RecreationRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/repository/MapRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/repository/EducationRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/controller/AutoController.java">
+    <entry file="file://$PROJECT_DIR$/.idea/copyright/profiles_settings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.389948">
-          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/controller/FAQController.java">
+    <entry file="file://$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23396881">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/map.js">
+    <entry file="file://$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3119584">
-          <caret line="222" column="42" selection-start-line="222" selection-start-column="42" selection-end-line="222" selection-end-column="42" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-945">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.0.3.RELEASE/spring-core-4.0.3.RELEASE.jar!/org/springframework/core/env/Environment.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/3.1.4.RELEASE/spring-orm-3.1.4.RELEASE.jar!/org/springframework/orm/jpa/LocalContainerEntityManagerFactoryBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/app.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/config/AppInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/controller/GoogleAuthController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="66" column="45" selection-start-line="66" selection-start-column="45" selection-end-line="66" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/config/WebAppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk/jre/lib/rt.jar!/javax/sql/DataSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2055">
+          <caret line="137" column="28" selection-start-line="137" selection-start-column="28" selection-end-line="137" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/config/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/3.1.4.RELEASE/spring-jdbc-3.1.4.RELEASE.jar!/org/springframework/jdbc/datasource/DriverManagerDataSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/university/diploma/config/DataConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1875,6 +2165,18 @@
       <state key="ModuleStructureConfigurable.UI">
         <settings>
           <last-edited>Spring|com.devcolibri.dataexam</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

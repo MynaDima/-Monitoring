@@ -24,7 +24,7 @@
         <processorPath useClasspath="true" />
         <module name="com.devcolibri.dataexam" />
       </profile>
-      <profile default="false" name="Annotation profile for University" enabled="true">
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -34,7 +34,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="com.devcolibri.dataexam" target="1.7" />
-      <module name="University" target="1.7" />
+      <module name="University" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
